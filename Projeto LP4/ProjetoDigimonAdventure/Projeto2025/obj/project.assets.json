@@ -1614,11 +1614,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\LABSC3\\Desktop\\Projeto LP4\\ProjetoDigimonAdventure\\Projeto2025\\Projeto2025.csproj",
+      "projectUniqueName": "C:\\Users\\LABSC3\\Desktop\\Projeto\\grupo03-projeto\\Projeto LP4\\ProjetoDigimonAdventure\\Projeto2025\\Projeto2025.csproj",
       "projectName": "Projeto2025",
-      "projectPath": "C:\\Users\\LABSC3\\Desktop\\Projeto LP4\\ProjetoDigimonAdventure\\Projeto2025\\Projeto2025.csproj",
+      "projectPath": "C:\\Users\\LABSC3\\Desktop\\Projeto\\grupo03-projeto\\Projeto LP4\\ProjetoDigimonAdventure\\Projeto2025\\Projeto2025.csproj",
       "packagesPath": "C:\\Users\\LABSC3\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\LABSC3\\Desktop\\Projeto LP4\\ProjetoDigimonAdventure\\Projeto2025\\obj\\",
+      "outputPath": "C:\\Users\\LABSC3\\Desktop\\Projeto\\grupo03-projeto\\Projeto LP4\\ProjetoDigimonAdventure\\Projeto2025\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\LABSC3\\AppData\\Roaming\\NuGet\\NuGet.Config",

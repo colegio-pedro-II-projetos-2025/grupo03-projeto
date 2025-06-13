@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Q1DePplyOrGxRjldBR6uAxOOoT2HtMTcXNOR89kY1c4t1VxgUKGZ/LwW7hgXWh0ieSFQ8iFJHtfWXnQsVn4Zhw==",
+  "dgSpecHash": "qp/zwwQvPvAcWox4WhUUQV4gXZjZdouxgRIVnOofbi7kCQrBXAz1FuCUchCrAZ8XLm6CXdED8PPAxauUFfVz1A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\LABSC3\\Desktop\\Projeto LP4\\ProjetoDigimonAdventure\\Projeto2025\\Projeto2025.csproj",
+  "projectFilePath": "C:\\Users\\LABSC3\\Desktop\\Projeto\\grupo03-projeto\\Projeto LP4\\ProjetoDigimonAdventure\\Projeto2025\\Projeto2025.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LABSC3\\.nuget\\packages\\bouncycastle.cryptography\\2.5.1\\bouncycastle.cryptography.2.5.1.nupkg.sha512",
     "C:\\Users\\LABSC3\\.nuget\\packages\\google.protobuf\\3.30.0\\google.protobuf.3.30.0.nupkg.sha512",
