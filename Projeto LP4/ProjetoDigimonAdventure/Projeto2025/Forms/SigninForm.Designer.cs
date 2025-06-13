@@ -44,7 +44,7 @@
             // lblSenha
             // 
             lblSenha.AutoSize = true;
-            lblSenha.Location = new Point(83, 179);
+            lblSenha.Location = new Point(81, 171);
             lblSenha.Name = "lblSenha";
             lblSenha.Size = new Size(42, 15);
             lblSenha.TabIndex = 9;
@@ -53,7 +53,7 @@
             // txtSenha
             // 
             txtSenha.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            txtSenha.Location = new Point(131, 168);
+            txtSenha.Location = new Point(81, 189);
             txtSenha.Name = "txtSenha";
             txtSenha.Size = new Size(349, 33);
             txtSenha.TabIndex = 8;
@@ -61,7 +61,7 @@
             // lblEmail
             // 
             lblEmail.AutoSize = true;
-            lblEmail.Location = new Point(86, 140);
+            lblEmail.Location = new Point(81, 117);
             lblEmail.Name = "lblEmail";
             lblEmail.Size = new Size(39, 15);
             lblEmail.TabIndex = 7;
@@ -70,7 +70,7 @@
             // txtEmail
             // 
             txtEmail.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            txtEmail.Location = new Point(131, 129);
+            txtEmail.Location = new Point(81, 135);
             txtEmail.Name = "txtEmail";
             txtEmail.Size = new Size(349, 33);
             txtEmail.TabIndex = 10;
@@ -78,7 +78,7 @@
             // lblConfirmarSenha
             // 
             lblConfirmarSenha.AutoSize = true;
-            lblConfirmarSenha.Location = new Point(26, 218);
+            lblConfirmarSenha.Location = new Point(82, 225);
             lblConfirmarSenha.Name = "lblConfirmarSenha";
             lblConfirmarSenha.Size = new Size(99, 15);
             lblConfirmarSenha.TabIndex = 13;
@@ -87,7 +87,7 @@
             // txtConfirmarSenha
             // 
             txtConfirmarSenha.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            txtConfirmarSenha.Location = new Point(131, 207);
+            txtConfirmarSenha.Location = new Point(82, 243);
             txtConfirmarSenha.Name = "txtConfirmarSenha";
             txtConfirmarSenha.Size = new Size(349, 33);
             txtConfirmarSenha.TabIndex = 12;
@@ -95,23 +95,23 @@
             // lblNome
             // 
             lblNome.AutoSize = true;
-            lblNome.Location = new Point(82, 101);
+            lblNome.Location = new Point(81, 63);
             lblNome.Name = "lblNome";
-            lblNome.Size = new Size(43, 15);
+            lblNome.Size = new Size(102, 15);
             lblNome.TabIndex = 11;
-            lblNome.Text = "Nome:";
+            lblNome.Text = "Nome de Usuário:";
             // 
             // txtNome
             // 
             txtNome.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            txtNome.Location = new Point(131, 90);
+            txtNome.Location = new Point(81, 81);
             txtNome.Name = "txtNome";
             txtNome.Size = new Size(349, 33);
             txtNome.TabIndex = 6;
             // 
             // btnVoltar
             // 
-            btnVoltar.Location = new Point(237, 246);
+            btnVoltar.Location = new Point(187, 282);
             btnVoltar.Name = "btnVoltar";
             btnVoltar.Size = new Size(100, 42);
             btnVoltar.TabIndex = 15;
@@ -121,7 +121,7 @@
             // 
             // btnCadastrar
             // 
-            btnCadastrar.Location = new Point(131, 246);
+            btnCadastrar.Location = new Point(81, 282);
             btnCadastrar.Name = "btnCadastrar";
             btnCadastrar.Size = new Size(100, 42);
             btnCadastrar.TabIndex = 14;
@@ -133,7 +133,7 @@
             // 
             lblErro.AutoSize = true;
             lblErro.ForeColor = Color.Red;
-            lblErro.Location = new Point(131, 291);
+            lblErro.Location = new Point(82, 309);
             lblErro.Name = "lblErro";
             lblErro.Size = new Size(0, 15);
             lblErro.TabIndex = 16;

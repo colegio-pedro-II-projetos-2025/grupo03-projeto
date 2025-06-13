@@ -40,7 +40,7 @@
             // txtEmail
             // 
             txtEmail.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            txtEmail.Location = new Point(95, 90);
+            txtEmail.Location = new Point(78, 85);
             txtEmail.Name = "txtEmail";
             txtEmail.Size = new Size(349, 33);
             txtEmail.TabIndex = 0;
@@ -48,7 +48,7 @@
             // lblEmail
             // 
             lblEmail.AutoSize = true;
-            lblEmail.Location = new Point(51, 101);
+            lblEmail.Location = new Point(78, 67);
             lblEmail.Name = "lblEmail";
             lblEmail.Size = new Size(39, 15);
             lblEmail.TabIndex = 1;
@@ -56,7 +56,7 @@
             // 
             // btnEntrar
             // 
-            btnEntrar.Location = new Point(95, 168);
+            btnEntrar.Location = new Point(78, 178);
             btnEntrar.Name = "btnEntrar";
             btnEntrar.Size = new Size(100, 42);
             btnEntrar.TabIndex = 2;
@@ -67,7 +67,7 @@
             // lnkCadastar
             // 
             lnkCadastar.AutoSize = true;
-            lnkCadastar.Location = new Point(313, 168);
+            lnkCadastar.Location = new Point(296, 178);
             lnkCadastar.Name = "lnkCadastar";
             lnkCadastar.Size = new Size(131, 15);
             lnkCadastar.TabIndex = 3;
@@ -78,7 +78,7 @@
             // lblSenha
             // 
             lblSenha.AutoSize = true;
-            lblSenha.Location = new Point(47, 140);
+            lblSenha.Location = new Point(78, 121);
             lblSenha.Name = "lblSenha";
             lblSenha.Size = new Size(42, 15);
             lblSenha.TabIndex = 5;
@@ -87,14 +87,14 @@
             // txtSenha
             // 
             txtSenha.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            txtSenha.Location = new Point(95, 129);
+            txtSenha.Location = new Point(78, 139);
             txtSenha.Name = "txtSenha";
             txtSenha.Size = new Size(349, 33);
             txtSenha.TabIndex = 4;
             // 
             // btnSair
             // 
-            btnSair.Location = new Point(201, 168);
+            btnSair.Location = new Point(184, 178);
             btnSair.Name = "btnSair";
             btnSair.Size = new Size(100, 42);
             btnSair.TabIndex = 6;
@@ -115,7 +115,7 @@
             Controls.Add(lblEmail);
             Controls.Add(txtEmail);
             Name = "LoginForm";
-            Text = "Fazer Login";
+            Text = "DigimonAdventure";
             ResumeLayout(false);
             PerformLayout();
         }

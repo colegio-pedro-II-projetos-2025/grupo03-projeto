@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\LABSC3\\Desktop\\Projeto\\grupo03-projeto\\Projeto LP4\\ProjetoDigimonAdventure\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{042EFDB7-A69E-4922-ADBA-34A8F52EFC65}|Projeto2025\\Projeto2025.csproj|c:\\users\\labsc3\\desktop\\projeto\\grupo03-projeto\\projeto lp4\\projetodigimonadventure\\projeto2025\\forms\\signinform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{042EFDB7-A69E-4922-ADBA-34A8F52EFC65}|Projeto2025\\Projeto2025.csproj|solutionrelative:projeto2025\\forms\\signinform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{042EFDB7-A69E-4922-ADBA-34A8F52EFC65}|Projeto2025\\Projeto2025.csproj|c:\\users\\labsc3\\desktop\\projeto\\grupo03-projeto\\projeto lp4\\projetodigimonadventure\\projeto2025\\forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{042EFDB7-A69E-4922-ADBA-34A8F52EFC65}|Projeto2025\\Projeto2025.csproj|solutionrelative:projeto2025\\forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{042EFDB7-A69E-4922-ADBA-34A8F52EFC65}|Projeto2025\\Projeto2025.csproj|c:\\users\\labsc3\\desktop\\projeto\\grupo03-projeto\\projeto lp4\\projetodigimonadventure\\projeto2025\\forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{042EFDB7-A69E-4922-ADBA-34A8F52EFC65}|Projeto2025\\Projeto2025.csproj|solutionrelative:projeto2025\\forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{042EFDB7-A69E-4922-ADBA-34A8F52EFC65}|Projeto2025\\Projeto2025.csproj|c:\\users\\labsc3\\desktop\\projeto\\grupo03-projeto\\projeto lp4\\projetodigimonadventure\\projeto2025\\forms\\signinform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{042EFDB7-A69E-4922-ADBA-34A8F52EFC65}|Projeto2025\\Projeto2025.csproj|solutionrelative:projeto2025\\forms\\signinform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{042EFDB7-A69E-4922-ADBA-34A8F52EFC65}|Projeto2025\\Projeto2025.csproj|c:\\users\\labsc3\\desktop\\projeto\\grupo03-projeto\\projeto lp4\\projetodigimonadventure\\projeto2025\\forms\\signinform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{042EFDB7-A69E-4922-ADBA-34A8F52EFC65}|Projeto2025\\Projeto2025.csproj|solutionrelative:projeto2025\\forms\\signinform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{042EFDB7-A69E-4922-ADBA-34A8F52EFC65}|Projeto2025\\Projeto2025.csproj|c:\\users\\labsc3\\desktop\\projeto\\grupo03-projeto\\projeto lp4\\projetodigimonadventure\\projeto2025\\forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{042EFDB7-A69E-4922-ADBA-34A8F52EFC65}|Projeto2025\\Projeto2025.csproj|solutionrelative:projeto2025\\forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{042EFDB7-A69E-4922-ADBA-34A8F52EFC65}|Projeto2025\\Projeto2025.csproj|c:\\users\\labsc3\\desktop\\projeto\\grupo03-projeto\\projeto lp4\\projetodigimonadventure\\projeto2025\\entity\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,7 +50,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "SigninForm.cs",
               "DocumentMoniker": "C:\\Users\\LABSC3\\Desktop\\Projeto\\grupo03-projeto\\Projeto LP4\\ProjetoDigimonAdventure\\Projeto2025\\Forms\\SigninForm.cs",
               "RelativeDocumentMoniker": "Projeto2025\\Forms\\SigninForm.cs",
@@ -63,7 +63,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "LoginForm.cs",
               "DocumentMoniker": "C:\\Users\\LABSC3\\Desktop\\Projeto\\grupo03-projeto\\Projeto LP4\\ProjetoDigimonAdventure\\Projeto2025\\Forms\\LoginForm.cs",
               "RelativeDocumentMoniker": "Projeto2025\\Forms\\LoginForm.cs",
@@ -84,8 +84,7 @@
               "RelativeToolTip": "Projeto2025\\Entity\\Usuario.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T16:51:33.887Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-05T16:51:33.887Z"
             },
             {
               "$type": "Document",
@@ -97,8 +96,7 @@
               "RelativeToolTip": "Projeto2025\\Repository\\UsuarioRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T16:51:06.825Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-05T16:51:06.825Z"
             },
             {
               "$type": "Document",
@@ -110,8 +108,7 @@
               "RelativeToolTip": "Projeto2025\\Utils\\RepositoryUtil.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T16:49:54.397Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-05T16:49:54.397Z"
             },
             {
               "$type": "Document",
@@ -127,7 +124,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "LoginForm.cs [Projeto]",
               "DocumentMoniker": "C:\\Users\\LABSC3\\Desktop\\Projeto\\grupo03-projeto\\Projeto LP4\\ProjetoDigimonAdventure\\Projeto2025\\Forms\\LoginForm.cs",
               "RelativeDocumentMoniker": "Projeto2025\\Forms\\LoginForm.cs",
@@ -139,7 +136,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "SigninForm.cs [Projeto]",
               "DocumentMoniker": "C:\\Users\\LABSC3\\Desktop\\Projeto\\grupo03-projeto\\Projeto LP4\\ProjetoDigimonAdventure\\Projeto2025\\Forms\\SigninForm.cs",
               "RelativeDocumentMoniker": "Projeto2025\\Forms\\SigninForm.cs",
