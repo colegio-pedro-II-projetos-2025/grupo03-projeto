@@ -9,7 +9,7 @@
 - Gabriel Fernandes
 - Gabriel Faleiro
 - Ian
-- Ana Claragi
+- Ana Clara
 
 ---
 
