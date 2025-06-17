@@ -1,0 +1,122 @@
+C:\Users\gabri\OneDrive\Área de Trabalho\Desenvolvimento\Projeto LP4\Projeto2025\Projeto2025\bin\Debug\net8.0-windows\Projeto2025.exe
+C:\Users\gabri\OneDrive\Área de Trabalho\Desenvolvimento\Projeto LP4\Projeto2025\Projeto2025\bin\Debug\net8.0-windows\Projeto2025.deps.json
+C:\Users\gabri\OneDrive\Área de Trabalho\Desenvolvimento\Projeto LP4\Projeto2025\Projeto2025\bin\Debug\net8.0-windows\Projeto2025.runtimeconfig.json
+C:\Users\gabri\OneDrive\Área de Trabalho\Desenvolvimento\Projeto LP4\Projeto2025\Projeto2025\bin\Debug\net8.0-windows\Projeto2025.dll
+C:\Users\gabri\OneDrive\Área de Trabalho\Desenvolvimento\Projeto LP4\Projeto2025\Projeto2025\bin\Debug\net8.0-windows\Projeto2025.pdb
+C:\Users\gabri\OneDrive\Área de Trabalho\Desenvolvimento\Projeto LP4\Projeto2025\Projeto2025\bin\Debug\net8.0-windows\BouncyCastle.Cryptography.dll
+C:\Users\gabri\OneDrive\Área de Trabalho\Desenvolvimento\Projeto LP4\Projeto2025\Projeto2025\bin\Debug\net8.0-windows\Google.Protobuf.dll
+C:\Users\gabri\OneDrive\Área de Trabalho\Desenvolvimento\Projeto LP4\Projeto2025\Projeto2025\bin\Debug\net8.0-windows\K4os.Compression.LZ4.dll
+C:\Users\gabri\OneDrive\Área de Trabalho\Desenvolvimento\Projeto LP4\Projeto2025\Projeto2025\bin\Debug\net8.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\gabri\OneDrive\Área de Trabalho\Desenvolvimento\Projeto LP4\Projeto2025\Projeto2025\bin\Debug\net8.0-windows\K4os.Hash.xxHash.dll
+C:\Users\gabri\OneDrive\Área de Trabalho\Desenvolvimento\Projeto LP4\Projeto2025\Projeto2025\bin\Debug\net8.0-windows\MySql.Data.dll
+C:\Users\gabri\OneDrive\Área de Trabalho\Desenvolvimento\Projeto LP4\Projeto2025\Projeto2025\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
+C:\Users\gabri\OneDrive\Área de Trabalho\Desenvolvimento\Projeto LP4\Projeto2025\Projeto2025\bin\Debug\net8.0-windows\System.Text.Encodings.Web.dll
+C:\Users\gabri\OneDrive\Área de Trabalho\Desenvolvimento\Projeto LP4\Projeto2025\Projeto2025\bin\Debug\net8.0-windows\System.Text.Json.dll
+C:\Users\gabri\OneDrive\Área de Trabalho\Desenvolvimento\Projeto LP4\Projeto2025\Projeto2025\bin\Debug\net8.0-windows\ZstdSharp.dll
+C:\Users\gabri\OneDrive\Área de Trabalho\Desenvolvimento\Projeto LP4\Projeto2025\Projeto2025\bin\Debug\net8.0-windows\runtimes\win-x64\native\comerr64.dll
+C:\Users\gabri\OneDrive\Área de Trabalho\Desenvolvimento\Projeto LP4\Projeto2025\Projeto2025\bin\Debug\net8.0-windows\runtimes\win-x64\native\gssapi64.dll
+C:\Users\gabri\OneDrive\Área de Trabalho\Desenvolvimento\Projeto LP4\Projeto2025\Projeto2025\bin\Debug\net8.0-windows\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\gabri\OneDrive\Área de Trabalho\Desenvolvimento\Projeto LP4\Projeto2025\Projeto2025\bin\Debug\net8.0-windows\runtimes\win-x64\native\krb5_64.dll
+C:\Users\gabri\OneDrive\Área de Trabalho\Desenvolvimento\Projeto LP4\Projeto2025\Projeto2025\bin\Debug\net8.0-windows\runtimes\win-x64\native\krbcc64.dll
+C:\Users\gabri\OneDrive\Área de Trabalho\Desenvolvimento\Projeto LP4\Projeto2025\Projeto2025\bin\Debug\net8.0-windows\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+C:\Users\gabri\OneDrive\Área de Trabalho\Desenvolvimento\Projeto LP4\Projeto2025\Projeto2025\obj\Debug\net8.0-windows\Projeto2025.csproj.AssemblyReference.cache
+C:\Users\gabri\OneDrive\Área de Trabalho\Desenvolvimento\Projeto LP4\Projeto2025\Projeto2025\obj\Debug\net8.0-windows\Projeto2025.LoginForm.resources
+C:\Users\gabri\OneDrive\Área de Trabalho\Desenvolvimento\Projeto LP4\Projeto2025\Projeto2025\obj\Debug\net8.0-windows\Projeto2025.Forms.SigninForm.resources
+C:\Users\gabri\OneDrive\Área de Trabalho\Desenvolvimento\Projeto LP4\Projeto2025\Projeto2025\obj\Debug\net8.0-windows\Projeto2025.csproj.GenerateResource.cache
+C:\Users\gabri\OneDrive\Área de Trabalho\Desenvolvimento\Projeto LP4\Projeto2025\Projeto2025\obj\Debug\net8.0-windows\Projeto2025.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gabri\OneDrive\Área de Trabalho\Desenvolvimento\Projeto LP4\Projeto2025\Projeto2025\obj\Debug\net8.0-windows\Projeto2025.AssemblyInfoInputs.cache
+C:\Users\gabri\OneDrive\Área de Trabalho\Desenvolvimento\Projeto LP4\Projeto2025\Projeto2025\obj\Debug\net8.0-windows\Projeto2025.AssemblyInfo.cs
+C:\Users\gabri\OneDrive\Área de Trabalho\Desenvolvimento\Projeto LP4\Projeto2025\Projeto2025\obj\Debug\net8.0-windows\Projeto2025.csproj.CoreCompileInputs.cache
+C:\Users\gabri\OneDrive\Área de Trabalho\Desenvolvimento\Projeto LP4\Projeto2025\Projeto2025\obj\Debug\net8.0-windows\Projeto2.B8F6D8C5.Up2Date
+C:\Users\gabri\OneDrive\Área de Trabalho\Desenvolvimento\Projeto LP4\Projeto2025\Projeto2025\obj\Debug\net8.0-windows\Projeto2025.dll
+C:\Users\gabri\OneDrive\Área de Trabalho\Desenvolvimento\Projeto LP4\Projeto2025\Projeto2025\obj\Debug\net8.0-windows\refint\Projeto2025.dll
+C:\Users\gabri\OneDrive\Área de Trabalho\Desenvolvimento\Projeto LP4\Projeto2025\Projeto2025\obj\Debug\net8.0-windows\Projeto2025.pdb
+C:\Users\gabri\OneDrive\Área de Trabalho\Desenvolvimento\Projeto LP4\Projeto2025\Projeto2025\obj\Debug\net8.0-windows\Projeto2025.genruntimeconfig.cache
+C:\Users\gabri\OneDrive\Área de Trabalho\Desenvolvimento\Projeto LP4\Projeto2025\Projeto2025\obj\Debug\net8.0-windows\ref\Projeto2025.dll
+C:\Users\LABSC3\Desktop\Projeto LP4\ProjetoDigimonAdventure\Projeto2025\bin\Debug\net8.0-windows\Projeto2025.exe
+C:\Users\LABSC3\Desktop\Projeto LP4\ProjetoDigimonAdventure\Projeto2025\bin\Debug\net8.0-windows\Projeto2025.deps.json
+C:\Users\LABSC3\Desktop\Projeto LP4\ProjetoDigimonAdventure\Projeto2025\bin\Debug\net8.0-windows\Projeto2025.runtimeconfig.json
+C:\Users\LABSC3\Desktop\Projeto LP4\ProjetoDigimonAdventure\Projeto2025\bin\Debug\net8.0-windows\Projeto2025.dll
+C:\Users\LABSC3\Desktop\Projeto LP4\ProjetoDigimonAdventure\Projeto2025\bin\Debug\net8.0-windows\Projeto2025.pdb
+C:\Users\LABSC3\Desktop\Projeto LP4\ProjetoDigimonAdventure\Projeto2025\bin\Debug\net8.0-windows\BouncyCastle.Cryptography.dll
+C:\Users\LABSC3\Desktop\Projeto LP4\ProjetoDigimonAdventure\Projeto2025\bin\Debug\net8.0-windows\Google.Protobuf.dll
+C:\Users\LABSC3\Desktop\Projeto LP4\ProjetoDigimonAdventure\Projeto2025\bin\Debug\net8.0-windows\K4os.Compression.LZ4.dll
+C:\Users\LABSC3\Desktop\Projeto LP4\ProjetoDigimonAdventure\Projeto2025\bin\Debug\net8.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\LABSC3\Desktop\Projeto LP4\ProjetoDigimonAdventure\Projeto2025\bin\Debug\net8.0-windows\K4os.Hash.xxHash.dll
+C:\Users\LABSC3\Desktop\Projeto LP4\ProjetoDigimonAdventure\Projeto2025\bin\Debug\net8.0-windows\MySql.Data.dll
+C:\Users\LABSC3\Desktop\Projeto LP4\ProjetoDigimonAdventure\Projeto2025\bin\Debug\net8.0-windows\System.Configuration.ConfigurationManager.dll
+C:\Users\LABSC3\Desktop\Projeto LP4\ProjetoDigimonAdventure\Projeto2025\bin\Debug\net8.0-windows\System.Diagnostics.DiagnosticSource.dll
+C:\Users\LABSC3\Desktop\Projeto LP4\ProjetoDigimonAdventure\Projeto2025\bin\Debug\net8.0-windows\System.Diagnostics.EventLog.dll
+C:\Users\LABSC3\Desktop\Projeto LP4\ProjetoDigimonAdventure\Projeto2025\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
+C:\Users\LABSC3\Desktop\Projeto LP4\ProjetoDigimonAdventure\Projeto2025\bin\Debug\net8.0-windows\System.Security.Cryptography.ProtectedData.dll
+C:\Users\LABSC3\Desktop\Projeto LP4\ProjetoDigimonAdventure\Projeto2025\bin\Debug\net8.0-windows\System.Security.Permissions.dll
+C:\Users\LABSC3\Desktop\Projeto LP4\ProjetoDigimonAdventure\Projeto2025\bin\Debug\net8.0-windows\System.Text.Encodings.Web.dll
+C:\Users\LABSC3\Desktop\Projeto LP4\ProjetoDigimonAdventure\Projeto2025\bin\Debug\net8.0-windows\System.Text.Json.dll
+C:\Users\LABSC3\Desktop\Projeto LP4\ProjetoDigimonAdventure\Projeto2025\bin\Debug\net8.0-windows\System.Windows.Extensions.dll
+C:\Users\LABSC3\Desktop\Projeto LP4\ProjetoDigimonAdventure\Projeto2025\bin\Debug\net8.0-windows\ZstdSharp.dll
+C:\Users\LABSC3\Desktop\Projeto LP4\ProjetoDigimonAdventure\Projeto2025\bin\Debug\net8.0-windows\runtimes\win-x64\native\comerr64.dll
+C:\Users\LABSC3\Desktop\Projeto LP4\ProjetoDigimonAdventure\Projeto2025\bin\Debug\net8.0-windows\runtimes\win-x64\native\gssapi64.dll
+C:\Users\LABSC3\Desktop\Projeto LP4\ProjetoDigimonAdventure\Projeto2025\bin\Debug\net8.0-windows\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\LABSC3\Desktop\Projeto LP4\ProjetoDigimonAdventure\Projeto2025\bin\Debug\net8.0-windows\runtimes\win-x64\native\krb5_64.dll
+C:\Users\LABSC3\Desktop\Projeto LP4\ProjetoDigimonAdventure\Projeto2025\bin\Debug\net8.0-windows\runtimes\win-x64\native\krbcc64.dll
+C:\Users\LABSC3\Desktop\Projeto LP4\ProjetoDigimonAdventure\Projeto2025\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
+C:\Users\LABSC3\Desktop\Projeto LP4\ProjetoDigimonAdventure\Projeto2025\bin\Debug\net8.0-windows\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+C:\Users\LABSC3\Desktop\Projeto LP4\ProjetoDigimonAdventure\Projeto2025\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Windows.Extensions.dll
+C:\Users\LABSC3\Desktop\Projeto LP4\ProjetoDigimonAdventure\Projeto2025\obj\Debug\net8.0-windows\Projeto2025.csproj.AssemblyReference.cache
+C:\Users\LABSC3\Desktop\Projeto LP4\ProjetoDigimonAdventure\Projeto2025\obj\Debug\net8.0-windows\Projeto2025.LoginForm.resources
+C:\Users\LABSC3\Desktop\Projeto LP4\ProjetoDigimonAdventure\Projeto2025\obj\Debug\net8.0-windows\Projeto2025.Forms.SigninForm.resources
+C:\Users\LABSC3\Desktop\Projeto LP4\ProjetoDigimonAdventure\Projeto2025\obj\Debug\net8.0-windows\Projeto2025.csproj.GenerateResource.cache
+C:\Users\LABSC3\Desktop\Projeto LP4\ProjetoDigimonAdventure\Projeto2025\obj\Debug\net8.0-windows\Projeto2025.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LABSC3\Desktop\Projeto LP4\ProjetoDigimonAdventure\Projeto2025\obj\Debug\net8.0-windows\Projeto2025.AssemblyInfoInputs.cache
+C:\Users\LABSC3\Desktop\Projeto LP4\ProjetoDigimonAdventure\Projeto2025\obj\Debug\net8.0-windows\Projeto2025.AssemblyInfo.cs
+C:\Users\LABSC3\Desktop\Projeto LP4\ProjetoDigimonAdventure\Projeto2025\obj\Debug\net8.0-windows\Projeto2025.csproj.CoreCompileInputs.cache
+C:\Users\LABSC3\Desktop\Projeto LP4\ProjetoDigimonAdventure\Projeto2025\obj\Debug\net8.0-windows\Projeto2.B8F6D8C5.Up2Date
+C:\Users\LABSC3\Desktop\Projeto LP4\ProjetoDigimonAdventure\Projeto2025\obj\Debug\net8.0-windows\Projeto2025.dll
+C:\Users\LABSC3\Desktop\Projeto LP4\ProjetoDigimonAdventure\Projeto2025\obj\Debug\net8.0-windows\refint\Projeto2025.dll
+C:\Users\LABSC3\Desktop\Projeto LP4\ProjetoDigimonAdventure\Projeto2025\obj\Debug\net8.0-windows\Projeto2025.pdb
+C:\Users\LABSC3\Desktop\Projeto LP4\ProjetoDigimonAdventure\Projeto2025\obj\Debug\net8.0-windows\Projeto2025.genruntimeconfig.cache
+C:\Users\LABSC3\Desktop\Projeto LP4\ProjetoDigimonAdventure\Projeto2025\obj\Debug\net8.0-windows\ref\Projeto2025.dll
+C:\Users\LABSC3\Desktop\Projeto\grupo03-projeto\Projeto LP4\ProjetoDigimonAdventure\Projeto2025\bin\Debug\net8.0-windows\Projeto2025.exe
+C:\Users\LABSC3\Desktop\Projeto\grupo03-projeto\Projeto LP4\ProjetoDigimonAdventure\Projeto2025\bin\Debug\net8.0-windows\Projeto2025.deps.json
+C:\Users\LABSC3\Desktop\Projeto\grupo03-projeto\Projeto LP4\ProjetoDigimonAdventure\Projeto2025\bin\Debug\net8.0-windows\Projeto2025.runtimeconfig.json
+C:\Users\LABSC3\Desktop\Projeto\grupo03-projeto\Projeto LP4\ProjetoDigimonAdventure\Projeto2025\bin\Debug\net8.0-windows\Projeto2025.dll
+C:\Users\LABSC3\Desktop\Projeto\grupo03-projeto\Projeto LP4\ProjetoDigimonAdventure\Projeto2025\bin\Debug\net8.0-windows\Projeto2025.pdb
+C:\Users\LABSC3\Desktop\Projeto\grupo03-projeto\Projeto LP4\ProjetoDigimonAdventure\Projeto2025\bin\Debug\net8.0-windows\BouncyCastle.Cryptography.dll
+C:\Users\LABSC3\Desktop\Projeto\grupo03-projeto\Projeto LP4\ProjetoDigimonAdventure\Projeto2025\bin\Debug\net8.0-windows\Google.Protobuf.dll
+C:\Users\LABSC3\Desktop\Projeto\grupo03-projeto\Projeto LP4\ProjetoDigimonAdventure\Projeto2025\bin\Debug\net8.0-windows\K4os.Compression.LZ4.dll
+C:\Users\LABSC3\Desktop\Projeto\grupo03-projeto\Projeto LP4\ProjetoDigimonAdventure\Projeto2025\bin\Debug\net8.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\LABSC3\Desktop\Projeto\grupo03-projeto\Projeto LP4\ProjetoDigimonAdventure\Projeto2025\bin\Debug\net8.0-windows\K4os.Hash.xxHash.dll
+C:\Users\LABSC3\Desktop\Projeto\grupo03-projeto\Projeto LP4\ProjetoDigimonAdventure\Projeto2025\bin\Debug\net8.0-windows\MySql.Data.dll
+C:\Users\LABSC3\Desktop\Projeto\grupo03-projeto\Projeto LP4\ProjetoDigimonAdventure\Projeto2025\bin\Debug\net8.0-windows\System.Configuration.ConfigurationManager.dll
+C:\Users\LABSC3\Desktop\Projeto\grupo03-projeto\Projeto LP4\ProjetoDigimonAdventure\Projeto2025\bin\Debug\net8.0-windows\System.Diagnostics.DiagnosticSource.dll
+C:\Users\LABSC3\Desktop\Projeto\grupo03-projeto\Projeto LP4\ProjetoDigimonAdventure\Projeto2025\bin\Debug\net8.0-windows\System.Diagnostics.EventLog.dll
+C:\Users\LABSC3\Desktop\Projeto\grupo03-projeto\Projeto LP4\ProjetoDigimonAdventure\Projeto2025\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
+C:\Users\LABSC3\Desktop\Projeto\grupo03-projeto\Projeto LP4\ProjetoDigimonAdventure\Projeto2025\bin\Debug\net8.0-windows\System.Security.Cryptography.ProtectedData.dll
+C:\Users\LABSC3\Desktop\Projeto\grupo03-projeto\Projeto LP4\ProjetoDigimonAdventure\Projeto2025\bin\Debug\net8.0-windows\System.Security.Permissions.dll
+C:\Users\LABSC3\Desktop\Projeto\grupo03-projeto\Projeto LP4\ProjetoDigimonAdventure\Projeto2025\bin\Debug\net8.0-windows\System.Text.Encodings.Web.dll
+C:\Users\LABSC3\Desktop\Projeto\grupo03-projeto\Projeto LP4\ProjetoDigimonAdventure\Projeto2025\bin\Debug\net8.0-windows\System.Text.Json.dll
+C:\Users\LABSC3\Desktop\Projeto\grupo03-projeto\Projeto LP4\ProjetoDigimonAdventure\Projeto2025\bin\Debug\net8.0-windows\System.Windows.Extensions.dll
+C:\Users\LABSC3\Desktop\Projeto\grupo03-projeto\Projeto LP4\ProjetoDigimonAdventure\Projeto2025\bin\Debug\net8.0-windows\ZstdSharp.dll
+C:\Users\LABSC3\Desktop\Projeto\grupo03-projeto\Projeto LP4\ProjetoDigimonAdventure\Projeto2025\bin\Debug\net8.0-windows\runtimes\win-x64\native\comerr64.dll
+C:\Users\LABSC3\Desktop\Projeto\grupo03-projeto\Projeto LP4\ProjetoDigimonAdventure\Projeto2025\bin\Debug\net8.0-windows\runtimes\win-x64\native\gssapi64.dll
+C:\Users\LABSC3\Desktop\Projeto\grupo03-projeto\Projeto LP4\ProjetoDigimonAdventure\Projeto2025\bin\Debug\net8.0-windows\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\LABSC3\Desktop\Projeto\grupo03-projeto\Projeto LP4\ProjetoDigimonAdventure\Projeto2025\bin\Debug\net8.0-windows\runtimes\win-x64\native\krb5_64.dll
+C:\Users\LABSC3\Desktop\Projeto\grupo03-projeto\Projeto LP4\ProjetoDigimonAdventure\Projeto2025\bin\Debug\net8.0-windows\runtimes\win-x64\native\krbcc64.dll
+C:\Users\LABSC3\Desktop\Projeto\grupo03-projeto\Projeto LP4\ProjetoDigimonAdventure\Projeto2025\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
+C:\Users\LABSC3\Desktop\Projeto\grupo03-projeto\Projeto LP4\ProjetoDigimonAdventure\Projeto2025\bin\Debug\net8.0-windows\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+C:\Users\LABSC3\Desktop\Projeto\grupo03-projeto\Projeto LP4\ProjetoDigimonAdventure\Projeto2025\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Windows.Extensions.dll
+C:\Users\LABSC3\Desktop\Projeto\grupo03-projeto\Projeto LP4\ProjetoDigimonAdventure\Projeto2025\obj\Debug\net8.0-windows\Projeto2025.csproj.AssemblyReference.cache
+C:\Users\LABSC3\Desktop\Projeto\grupo03-projeto\Projeto LP4\ProjetoDigimonAdventure\Projeto2025\obj\Debug\net8.0-windows\Projeto2025.LoginForm.resources
+C:\Users\LABSC3\Desktop\Projeto\grupo03-projeto\Projeto LP4\ProjetoDigimonAdventure\Projeto2025\obj\Debug\net8.0-windows\Projeto2025.Forms.SigninForm.resources
+C:\Users\LABSC3\Desktop\Projeto\grupo03-projeto\Projeto LP4\ProjetoDigimonAdventure\Projeto2025\obj\Debug\net8.0-windows\Projeto2025.csproj.GenerateResource.cache
+C:\Users\LABSC3\Desktop\Projeto\grupo03-projeto\Projeto LP4\ProjetoDigimonAdventure\Projeto2025\obj\Debug\net8.0-windows\Projeto2025.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LABSC3\Desktop\Projeto\grupo03-projeto\Projeto LP4\ProjetoDigimonAdventure\Projeto2025\obj\Debug\net8.0-windows\Projeto2025.AssemblyInfoInputs.cache
+C:\Users\LABSC3\Desktop\Projeto\grupo03-projeto\Projeto LP4\ProjetoDigimonAdventure\Projeto2025\obj\Debug\net8.0-windows\Projeto2025.AssemblyInfo.cs
+C:\Users\LABSC3\Desktop\Projeto\grupo03-projeto\Projeto LP4\ProjetoDigimonAdventure\Projeto2025\obj\Debug\net8.0-windows\Projeto2025.csproj.CoreCompileInputs.cache
+C:\Users\LABSC3\Desktop\Projeto\grupo03-projeto\Projeto LP4\ProjetoDigimonAdventure\Projeto2025\obj\Debug\net8.0-windows\Projeto2025.sourcelink.json
+C:\Users\LABSC3\Desktop\Projeto\grupo03-projeto\Projeto LP4\ProjetoDigimonAdventure\Projeto2025\obj\Debug\net8.0-windows\Projeto2.B8F6D8C5.Up2Date
+C:\Users\LABSC3\Desktop\Projeto\grupo03-projeto\Projeto LP4\ProjetoDigimonAdventure\Projeto2025\obj\Debug\net8.0-windows\Projeto2025.dll
+C:\Users\LABSC3\Desktop\Projeto\grupo03-projeto\Projeto LP4\ProjetoDigimonAdventure\Projeto2025\obj\Debug\net8.0-windows\refint\Projeto2025.dll
+C:\Users\LABSC3\Desktop\Projeto\grupo03-projeto\Projeto LP4\ProjetoDigimonAdventure\Projeto2025\obj\Debug\net8.0-windows\Projeto2025.pdb
+C:\Users\LABSC3\Desktop\Projeto\grupo03-projeto\Projeto LP4\ProjetoDigimonAdventure\Projeto2025\obj\Debug\net8.0-windows\Projeto2025.genruntimeconfig.cache
+C:\Users\LABSC3\Desktop\Projeto\grupo03-projeto\Projeto LP4\ProjetoDigimonAdventure\Projeto2025\obj\Debug\net8.0-windows\ref\Projeto2025.dll
