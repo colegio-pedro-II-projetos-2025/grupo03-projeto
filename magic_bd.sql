@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 17/06/2025 às 20:54
+-- Tempo de geração: 18/06/2025 às 22:47
 -- Versão do servidor: 10.4.32-MariaDB
--- Versão do PHP: 8.2.12
+-- Versão do PHP: 8.0.30
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -46,7 +46,8 @@ CREATE TABLE `cartas` (
 
 CREATE TABLE `deck` (
   `id` int(5) NOT NULL,
-  `dono` varchar(100) DEFAULT NULL
+  `dono` varchar(100) DEFAULT NULL,
+  `nome_deck` varchar(100) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- --------------------------------------------------------
