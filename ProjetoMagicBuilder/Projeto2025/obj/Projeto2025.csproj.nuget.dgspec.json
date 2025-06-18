@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\LABSC3\\Desktop\\Projeto\\grupo03-projeto\\ProjetoMagicBuilder\\Projeto2025\\Projeto2025.csproj": {}
+    "C:\\Users\\gabri\\OneDrive\\Área de Trabalho\\projeto magic\\grupo03-projeto\\ProjetoMagicBuilder\\Projeto2025\\Projeto2025.csproj": {}
   },
   "projects": {
-    "C:\\Users\\LABSC3\\Desktop\\Projeto\\grupo03-projeto\\ProjetoMagicBuilder\\Projeto2025\\Projeto2025.csproj": {
+    "C:\\Users\\gabri\\OneDrive\\Área de Trabalho\\projeto magic\\grupo03-projeto\\ProjetoMagicBuilder\\Projeto2025\\Projeto2025.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LABSC3\\Desktop\\Projeto\\grupo03-projeto\\ProjetoMagicBuilder\\Projeto2025\\Projeto2025.csproj",
+        "projectUniqueName": "C:\\Users\\gabri\\OneDrive\\Área de Trabalho\\projeto magic\\grupo03-projeto\\ProjetoMagicBuilder\\Projeto2025\\Projeto2025.csproj",
         "projectName": "Projeto2025",
-        "projectPath": "C:\\Users\\LABSC3\\Desktop\\Projeto\\grupo03-projeto\\ProjetoMagicBuilder\\Projeto2025\\Projeto2025.csproj",
-        "packagesPath": "C:\\Users\\LABSC3\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LABSC3\\Desktop\\Projeto\\grupo03-projeto\\ProjetoMagicBuilder\\Projeto2025\\obj\\",
+        "projectPath": "C:\\Users\\gabri\\OneDrive\\Área de Trabalho\\projeto magic\\grupo03-projeto\\ProjetoMagicBuilder\\Projeto2025\\Projeto2025.csproj",
+        "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gabri\\OneDrive\\Área de Trabalho\\projeto magic\\grupo03-projeto\\ProjetoMagicBuilder\\Projeto2025\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\LABSC3\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -69,7 +70,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
