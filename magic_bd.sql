@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 19/06/2025 às 21:27
+-- Tempo de geração: 20/06/2025 às 01:24
 -- Versão do servidor: 10.4.32-MariaDB
 -- Versão do PHP: 8.2.12
 
@@ -32,7 +32,7 @@ CREATE TABLE `cartas` (
   `id` int(5) NOT NULL,
   `mana` int(2) NOT NULL,
   `tipo` varchar(100) DEFAULT NULL,
-  `descrição` varchar(100) DEFAULT NULL,
+  `descricao` varchar(100) DEFAULT NULL,
   `poder` int(2) DEFAULT NULL,
   `resistencia` int(2) DEFAULT NULL,
   `cor` varchar(8) DEFAULT NULL
@@ -42,7 +42,7 @@ CREATE TABLE `cartas` (
 -- Despejando dados para a tabela `cartas`
 --
 
-INSERT INTO `cartas` (`nome`, `id`, `mana`, `tipo`, `descrição`, `poder`, `resistencia`, `cor`) VALUES
+INSERT INTO `cartas` (`nome`, `id`, `mana`, `tipo`, `descricao`, `poder`, `resistencia`, `cor`) VALUES
 ('Air Elemental', 2, 5, 'Creature — Elemental', 'Flying', 4, 4, 'Azul'),
 ('Ancestral Recall', 3, 1, 'Instant', 'Target player draws three cards.', NULL, NULL, 'Azul'),
 ('Animate Artifact', 4, 4, 'Enchantment — Aura', 'Enchant artifact As long as enchanted artifact isn’t a creature, it’s an artifact creature with powe', NULL, NULL, 'Azul'),
@@ -111,7 +111,7 @@ INSERT INTO `cartas` (`nome`, `id`, `mana`, `tipo`, `descrição`, `poder`, `res
 --
 
 CREATE TABLE `deck` (
-  `id` int(5) NOT NULL,
+  `id` int(11) NOT NULL,
   `dono` varchar(100) DEFAULT NULL,
   `nome_deck` varchar(100) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
@@ -137,7 +137,9 @@ CREATE TABLE `deck_cartas` (
 CREATE TABLE `usuario` (
   `email` varchar(255) NOT NULL,
   `nome` varchar(100) NOT NULL,
-  `senha` varchar(100) NOT NULL
+  `senha` varchar(100) NOT NULL,
+  `partidas` int(3) DEFAULT NULL,
+  `vitorias` int(3) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
@@ -181,6 +183,12 @@ ALTER TABLE `usuario`
 --
 ALTER TABLE `cartas`
   MODIFY `id` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=62;
+
+--
+-- AUTO_INCREMENT de tabela `deck`
+--
+ALTER TABLE `deck`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- Restrições para tabelas despejadas
