@@ -34,6 +34,7 @@ namespace Projeto2025
             if (usuario != null)
             {
                 DeckBuilderForm deckBuilderForm = new DeckBuilderForm();
+                deckBuilderForm.ReceberUsuario(usuario);
                 deckBuilderForm.Show();
             }
             else

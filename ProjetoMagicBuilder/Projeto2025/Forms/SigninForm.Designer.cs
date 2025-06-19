@@ -137,7 +137,7 @@
             // 
             lblErro.AutoSize = true;
             lblErro.ForeColor = Color.Red;
-            lblErro.Location = new Point(82, 309);
+            lblErro.Location = new Point(293, 282);
             lblErro.Name = "lblErro";
             lblErro.Size = new Size(0, 15);
             lblErro.TabIndex = 16;

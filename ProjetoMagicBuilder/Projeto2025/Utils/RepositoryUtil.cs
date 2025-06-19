@@ -8,6 +8,6 @@ namespace Projeto2025.Utils
 {
     internal class RepositoryUtil
     {
-        public static string ConnectionString { get; } = "server=localhost;database=magicbd;uid=root;pwd=;";
+        public static string ConnectionString { get; } = "server=localhost;database=magic_bd;uid=root;pwd=;";
     }
 }
