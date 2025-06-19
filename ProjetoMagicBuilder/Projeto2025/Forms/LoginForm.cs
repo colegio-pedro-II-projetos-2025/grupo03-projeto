@@ -33,7 +33,8 @@ namespace Projeto2025
 
             if (usuario != null)
             {
-                MessageBox.Show($"Seja bem-vindo ao Programa, {usuario.Nome}!", "Bem-vindo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                DeckBuilderForm deckBuilderForm = new DeckBuilderForm();
+                deckBuilderForm.Show();
             }
             else
             {

@@ -3,6 +3,38 @@
   "WorkspaceRootPath": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\projeto magic\\grupo03-projeto\\ProjetoMagicBuilder\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{042EFDB7-A69E-4922-ADBA-34A8F52EFC65}|Projeto2025\\Projeto2025.csproj|c:\\users\\gabri\\onedrive\\\u00E1rea de trabalho\\projeto magic\\grupo03-projeto\\projetomagicbuilder\\projeto2025\\forms\\deckbuilderform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{042EFDB7-A69E-4922-ADBA-34A8F52EFC65}|Projeto2025\\Projeto2025.csproj|solutionrelative:projeto2025\\forms\\deckbuilderform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{042EFDB7-A69E-4922-ADBA-34A8F52EFC65}|Projeto2025\\Projeto2025.csproj|c:\\users\\gabri\\onedrive\\\u00E1rea de trabalho\\projeto magic\\grupo03-projeto\\projetomagicbuilder\\projeto2025\\forms\\cartaaleatoriaform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{042EFDB7-A69E-4922-ADBA-34A8F52EFC65}|Projeto2025\\Projeto2025.csproj|solutionrelative:projeto2025\\forms\\cartaaleatoriaform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{042EFDB7-A69E-4922-ADBA-34A8F52EFC65}|Projeto2025\\Projeto2025.csproj|c:\\users\\gabri\\onedrive\\\u00E1rea de trabalho\\projeto magic\\grupo03-projeto\\projetomagicbuilder\\projeto2025\\forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{042EFDB7-A69E-4922-ADBA-34A8F52EFC65}|Projeto2025\\Projeto2025.csproj|solutionrelative:projeto2025\\forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{042EFDB7-A69E-4922-ADBA-34A8F52EFC65}|Projeto2025\\Projeto2025.csproj|C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\projeto magic\\grupo03-projeto\\ProjetoMagicBuilder\\projeto2025\\forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{042EFDB7-A69E-4922-ADBA-34A8F52EFC65}|Projeto2025\\Projeto2025.csproj|solutionrelative:projeto2025\\forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{042EFDB7-A69E-4922-ADBA-34A8F52EFC65}|Projeto2025\\Projeto2025.csproj|c:\\users\\gabri\\onedrive\\\u00E1rea de trabalho\\projeto magic\\grupo03-projeto\\projetomagicbuilder\\projeto2025\\forms\\signinform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{042EFDB7-A69E-4922-ADBA-34A8F52EFC65}|Projeto2025\\Projeto2025.csproj|solutionrelative:projeto2025\\forms\\signinform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{042EFDB7-A69E-4922-ADBA-34A8F52EFC65}|Projeto2025\\Projeto2025.csproj|c:\\users\\gabri\\onedrive\\\u00E1rea de trabalho\\projeto magic\\grupo03-projeto\\projetomagicbuilder\\projeto2025\\forms\\startform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{042EFDB7-A69E-4922-ADBA-34A8F52EFC65}|Projeto2025\\Projeto2025.csproj|solutionrelative:projeto2025\\forms\\startform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{042EFDB7-A69E-4922-ADBA-34A8F52EFC65}|Projeto2025\\Projeto2025.csproj|c:\\users\\gabri\\onedrive\\\u00E1rea de trabalho\\projeto magic\\grupo03-projeto\\projetomagicbuilder\\projeto2025\\forms\\startform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{042EFDB7-A69E-4922-ADBA-34A8F52EFC65}|Projeto2025\\Projeto2025.csproj|solutionrelative:projeto2025\\forms\\startform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{042EFDB7-A69E-4922-ADBA-34A8F52EFC65}|Projeto2025\\Projeto2025.csproj|c:\\users\\gabri\\onedrive\\\u00E1rea de trabalho\\projeto magic\\grupo03-projeto\\projetomagicbuilder\\projeto2025\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{042EFDB7-A69E-4922-ADBA-34A8F52EFC65}|Projeto2025\\Projeto2025.csproj|solutionrelative:projeto2025\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{042EFDB7-A69E-4922-ADBA-34A8F52EFC65}|Projeto2025\\Projeto2025.csproj|c:\\users\\gabri\\onedrive\\\u00E1rea de trabalho\\projeto magic\\grupo03-projeto\\projetomagicbuilder\\projeto2025\\repository\\cartarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{042EFDB7-A69E-4922-ADBA-34A8F52EFC65}|Projeto2025\\Projeto2025.csproj|solutionrelative:projeto2025\\repository\\cartarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -23,24 +55,12 @@
       "RelativeMoniker": "D:0:0:{042EFDB7-A69E-4922-ADBA-34A8F52EFC65}|Projeto2025\\Projeto2025.csproj|solutionrelative:projeto2025\\forms\\signinform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{042EFDB7-A69E-4922-ADBA-34A8F52EFC65}|Projeto2025\\Projeto2025.csproj|C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\projeto magic\\grupo03-projeto\\ProjetoMagicBuilder\\projeto2025\\forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{042EFDB7-A69E-4922-ADBA-34A8F52EFC65}|Projeto2025\\Projeto2025.csproj|solutionrelative:projeto2025\\forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{042EFDB7-A69E-4922-ADBA-34A8F52EFC65}|Projeto2025\\Projeto2025.csproj|c:\\users\\gabri\\onedrive\\\u00E1rea de trabalho\\projeto magic\\grupo03-projeto\\projetomagicbuilder\\projeto2025\\utils\\hashutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{042EFDB7-A69E-4922-ADBA-34A8F52EFC65}|Projeto2025\\Projeto2025.csproj|solutionrelative:projeto2025\\utils\\hashutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{042EFDB7-A69E-4922-ADBA-34A8F52EFC65}|Projeto2025\\Projeto2025.csproj|c:\\users\\gabri\\onedrive\\\u00E1rea de trabalho\\projeto magic\\grupo03-projeto\\projetomagicbuilder\\projeto2025\\forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{042EFDB7-A69E-4922-ADBA-34A8F52EFC65}|Projeto2025\\Projeto2025.csproj|solutionrelative:projeto2025\\forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{042EFDB7-A69E-4922-ADBA-34A8F52EFC65}|Projeto2025\\Projeto2025.csproj|c:\\users\\gabri\\onedrive\\\u00E1rea de trabalho\\projeto magic\\grupo03-projeto\\projetomagicbuilder\\projeto2025\\entity\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{042EFDB7-A69E-4922-ADBA-34A8F52EFC65}|Projeto2025\\Projeto2025.csproj|solutionrelative:projeto2025\\entity\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{042EFDB7-A69E-4922-ADBA-34A8F52EFC65}|Projeto2025\\Projeto2025.csproj|c:\\users\\gabri\\onedrive\\\u00E1rea de trabalho\\projeto magic\\grupo03-projeto\\projetomagicbuilder\\projeto2025\\forms\\signinform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{042EFDB7-A69E-4922-ADBA-34A8F52EFC65}|Projeto2025\\Projeto2025.csproj|solutionrelative:projeto2025\\forms\\signinform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,7 +70,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,7 +78,119 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CartaAleatoriaForm.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\projeto magic\\grupo03-projeto\\ProjetoMagicBuilder\\Projeto2025\\Forms\\CartaAleatoriaForm.cs",
+              "RelativeDocumentMoniker": "Projeto2025\\Forms\\CartaAleatoriaForm.cs",
+              "ToolTip": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\projeto magic\\grupo03-projeto\\ProjetoMagicBuilder\\Projeto2025\\Forms\\CartaAleatoriaForm.cs [Projeto]",
+              "RelativeToolTip": "Projeto2025\\Forms\\CartaAleatoriaForm.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T18:38:51.901Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StartForm.cs",
+              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\projeto magic\\grupo03-projeto\\ProjetoMagicBuilder\\Projeto2025\\Forms\\StartForm.cs",
+              "RelativeDocumentMoniker": "Projeto2025\\Forms\\StartForm.cs",
+              "ToolTip": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\projeto magic\\grupo03-projeto\\ProjetoMagicBuilder\\Projeto2025\\Forms\\StartForm.cs",
+              "RelativeToolTip": "Projeto2025\\Forms\\StartForm.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAADgvxwAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T18:37:44.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SigninForm.cs",
+              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\projeto magic\\grupo03-projeto\\ProjetoMagicBuilder\\Projeto2025\\Forms\\SigninForm.cs",
+              "RelativeDocumentMoniker": "Projeto2025\\Forms\\SigninForm.cs",
+              "ToolTip": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\projeto magic\\grupo03-projeto\\ProjetoMagicBuilder\\Projeto2025\\Forms\\SigninForm.cs",
+              "RelativeToolTip": "Projeto2025\\Forms\\SigninForm.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T16:52:55.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginForm.cs",
+              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\projeto magic\\grupo03-projeto\\ProjetoMagicBuilder\\Projeto2025\\Forms\\LoginForm.cs",
+              "RelativeDocumentMoniker": "Projeto2025\\Forms\\LoginForm.cs",
+              "ToolTip": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\projeto magic\\grupo03-projeto\\ProjetoMagicBuilder\\Projeto2025\\Forms\\LoginForm.cs",
+              "RelativeToolTip": "Projeto2025\\Forms\\LoginForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T16:47:57.841Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginForm.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\projeto magic\\grupo03-projeto\\ProjetoMagicBuilder\\Projeto2025\\Forms\\LoginForm.cs",
+              "RelativeDocumentMoniker": "Projeto2025\\Forms\\LoginForm.cs",
+              "ToolTip": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\projeto magic\\grupo03-projeto\\ProjetoMagicBuilder\\Projeto2025\\Forms\\LoginForm.cs [Projeto]",
+              "RelativeToolTip": "Projeto2025\\Forms\\LoginForm.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T16:39:40.525Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "DeckBuilderForm.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\projeto magic\\grupo03-projeto\\ProjetoMagicBuilder\\Projeto2025\\Forms\\DeckBuilderForm.cs",
+              "RelativeDocumentMoniker": "Projeto2025\\Forms\\DeckBuilderForm.cs",
+              "ToolTip": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\projeto magic\\grupo03-projeto\\ProjetoMagicBuilder\\Projeto2025\\Forms\\DeckBuilderForm.cs [Projeto]",
+              "RelativeToolTip": "Projeto2025\\Forms\\DeckBuilderForm.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T18:26:37.292Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "StartForm.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\projeto magic\\grupo03-projeto\\ProjetoMagicBuilder\\Projeto2025\\Forms\\StartForm.cs",
+              "RelativeDocumentMoniker": "Projeto2025\\Forms\\StartForm.cs",
+              "ToolTip": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\projeto magic\\grupo03-projeto\\ProjetoMagicBuilder\\Projeto2025\\Forms\\StartForm.cs [Projeto]",
+              "RelativeToolTip": "Projeto2025\\Forms\\StartForm.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T18:29:39.869Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\projeto magic\\grupo03-projeto\\ProjetoMagicBuilder\\Projeto2025\\Program.cs",
+              "RelativeDocumentMoniker": "Projeto2025\\Program.cs",
+              "ToolTip": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\projeto magic\\grupo03-projeto\\ProjetoMagicBuilder\\Projeto2025\\Program.cs",
+              "RelativeToolTip": "Projeto2025\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T18:28:45.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Carta.cs",
+              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\projeto magic\\grupo03-projeto\\ProjetoMagicBuilder\\Projeto2025\\Entity\\Carta.cs",
+              "RelativeDocumentMoniker": "Projeto2025\\Entity\\Carta.cs",
+              "ToolTip": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\projeto magic\\grupo03-projeto\\ProjetoMagicBuilder\\Projeto2025\\Entity\\Carta.cs",
+              "RelativeToolTip": "Projeto2025\\Entity\\Carta.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T19:53:44.833Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "CartaRepository.cs",
               "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\projeto magic\\grupo03-projeto\\ProjetoMagicBuilder\\Projeto2025\\Repository\\CartaRepository.cs",
               "RelativeDocumentMoniker": "Projeto2025\\Repository\\CartaRepository.cs",
@@ -71,45 +203,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Carta.cs",
-              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\projeto magic\\grupo03-projeto\\ProjetoMagicBuilder\\Projeto2025\\Entity\\Carta.cs",
-              "RelativeDocumentMoniker": "Projeto2025\\Entity\\Carta.cs",
-              "ToolTip": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\projeto magic\\grupo03-projeto\\ProjetoMagicBuilder\\Projeto2025\\Entity\\Carta.cs",
-              "RelativeToolTip": "Projeto2025\\Entity\\Carta.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T19:53:44.833Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "SigninForm.cs",
-              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\projeto magic\\grupo03-projeto\\ProjetoMagicBuilder\\Projeto2025\\Forms\\SigninForm.cs",
-              "RelativeDocumentMoniker": "Projeto2025\\Forms\\SigninForm.cs",
-              "ToolTip": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\projeto magic\\grupo03-projeto\\ProjetoMagicBuilder\\Projeto2025\\Forms\\SigninForm.cs",
-              "RelativeToolTip": "Projeto2025\\Forms\\SigninForm.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T16:52:55.419Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "LoginForm.cs",
-              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\projeto magic\\grupo03-projeto\\ProjetoMagicBuilder\\Projeto2025\\Forms\\LoginForm.cs",
-              "RelativeDocumentMoniker": "Projeto2025\\Forms\\LoginForm.cs",
-              "ToolTip": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\projeto magic\\grupo03-projeto\\ProjetoMagicBuilder\\Projeto2025\\Forms\\LoginForm.cs",
-              "RelativeToolTip": "Projeto2025\\Forms\\LoginForm.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T16:47:57.841Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 14,
               "Title": "Usuario.cs",
               "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\projeto magic\\grupo03-projeto\\ProjetoMagicBuilder\\Projeto2025\\Entity\\Usuario.cs",
               "RelativeDocumentMoniker": "Projeto2025\\Entity\\Usuario.cs",
@@ -121,7 +215,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "UsuarioRepository.cs",
               "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\projeto magic\\grupo03-projeto\\ProjetoMagicBuilder\\Projeto2025\\Repository\\UsuarioRepository.cs",
               "RelativeDocumentMoniker": "Projeto2025\\Repository\\UsuarioRepository.cs",
@@ -133,7 +227,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 11,
               "Title": "RepositoryUtil.cs",
               "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\projeto magic\\grupo03-projeto\\ProjetoMagicBuilder\\Projeto2025\\Utils\\RepositoryUtil.cs",
               "RelativeDocumentMoniker": "Projeto2025\\Utils\\RepositoryUtil.cs",
@@ -145,7 +239,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 13,
               "Title": "HashUtil.cs",
               "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\projeto magic\\grupo03-projeto\\ProjetoMagicBuilder\\Projeto2025\\Utils\\HashUtil.cs",
               "RelativeDocumentMoniker": "Projeto2025\\Utils\\HashUtil.cs",
@@ -157,18 +251,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "LoginForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\projeto magic\\grupo03-projeto\\ProjetoMagicBuilder\\Projeto2025\\Forms\\LoginForm.cs",
-              "RelativeDocumentMoniker": "Projeto2025\\Forms\\LoginForm.cs",
-              "ToolTip": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\projeto magic\\grupo03-projeto\\ProjetoMagicBuilder\\Projeto2025\\Forms\\LoginForm.cs [Design]",
-              "RelativeToolTip": "Projeto2025\\Forms\\LoginForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T16:39:40.525Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 12,
               "Title": "SigninForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\projeto magic\\grupo03-projeto\\ProjetoMagicBuilder\\Projeto2025\\Forms\\SigninForm.cs",
               "RelativeDocumentMoniker": "Projeto2025\\Forms\\SigninForm.cs",

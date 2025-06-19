@@ -117,7 +117,7 @@
             Controls.Add(lblEmail);
             Controls.Add(txtEmail);
             Name = "LoginForm";
-            Text = "DigimonAdventure";
+            Text = "MagicBuilder";
             ResumeLayout(false);
             PerformLayout();
         }
