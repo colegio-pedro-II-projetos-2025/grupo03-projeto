@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 19/06/2025 às 19:49
+-- Tempo de geração: 19/06/2025 às 21:27
 -- Versão do servidor: 10.4.32-MariaDB
 -- Versão do PHP: 8.2.12
 
@@ -125,7 +125,6 @@ CREATE TABLE `deck` (
 CREATE TABLE `deck_cartas` (
   `carta` int(5) DEFAULT NULL,
   `quantidade` int(2) DEFAULT NULL,
-  `pertence` int(5) DEFAULT NULL,
   `deck` int(5) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
