@@ -57,7 +57,7 @@
             // 
             // btnEntrar
             // 
-            btnEntrar.Location = new Point(78, 178);
+            btnEntrar.Location = new Point(190, 178);
             btnEntrar.Name = "btnEntrar";
             btnEntrar.Size = new Size(100, 42);
             btnEntrar.TabIndex = 2;
@@ -96,7 +96,7 @@
             // 
             // btnSair
             // 
-            btnSair.Location = new Point(184, 178);
+            btnSair.Location = new Point(78, 178);
             btnSair.Name = "btnSair";
             btnSair.Size = new Size(100, 42);
             btnSair.TabIndex = 6;

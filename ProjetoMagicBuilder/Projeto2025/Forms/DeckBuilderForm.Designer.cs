@@ -38,15 +38,16 @@
             btnAdicionarCarta = new Button();
             txtAdicionarDeck = new TextBox();
             lblAdicionarDeck = new Label();
+            btnExcluirDeck = new Button();
             SuspendLayout();
             // 
             // btnProximoDeck
             // 
-            btnProximoDeck.Location = new Point(120, 336);
+            btnProximoDeck.Location = new Point(12, 336);
             btnProximoDeck.Name = "btnProximoDeck";
             btnProximoDeck.Size = new Size(60, 30);
             btnProximoDeck.TabIndex = 1;
-            btnProximoDeck.Text = "Próx.";
+            btnProximoDeck.Text = "<<";
             btnProximoDeck.UseVisualStyleBackColor = true;
             btnProximoDeck.Click += btnProximoDeck_Click;
             // 
@@ -65,21 +66,22 @@
             lstDeck.ItemHeight = 15;
             lstDeck.Location = new Point(12, 35);
             lstDeck.Name = "lstDeck";
-            lstDeck.Size = new Size(234, 289);
+            lstDeck.Size = new Size(265, 289);
             lstDeck.TabIndex = 0;
             // 
             // btnAnteriorDeck
             // 
-            btnAnteriorDeck.Location = new Point(186, 336);
+            btnAnteriorDeck.Location = new Point(151, 336);
             btnAnteriorDeck.Name = "btnAnteriorDeck";
             btnAnteriorDeck.Size = new Size(60, 30);
             btnAnteriorDeck.TabIndex = 3;
-            btnAnteriorDeck.Text = "Ant.";
+            btnAnteriorDeck.Text = ">>";
             btnAnteriorDeck.UseVisualStyleBackColor = true;
+            btnAnteriorDeck.Click += btnAnteriorDeck_Click;
             // 
             // btnSair
             // 
-            btnSair.Location = new Point(369, 324);
+            btnSair.Location = new Point(400, 324);
             btnSair.Name = "btnSair";
             btnSair.Size = new Size(100, 42);
             btnSair.TabIndex = 4;
@@ -89,7 +91,7 @@
             // 
             // btnAdicionarDeck
             // 
-            btnAdicionarDeck.Location = new Point(263, 324);
+            btnAdicionarDeck.Location = new Point(294, 324);
             btnAdicionarDeck.Name = "btnAdicionarDeck";
             btnAdicionarDeck.Size = new Size(100, 42);
             btnAdicionarDeck.TabIndex = 5;
@@ -100,7 +102,7 @@
             // lblNumeroDeck
             // 
             lblNumeroDeck.AutoSize = true;
-            lblNumeroDeck.Location = new Point(26, 344);
+            lblNumeroDeck.Location = new Point(78, 344);
             lblNumeroDeck.Name = "lblNumeroDeck";
             lblNumeroDeck.Size = new Size(67, 15);
             lblNumeroDeck.TabIndex = 6;
@@ -108,7 +110,7 @@
             // 
             // btnAdicionarCarta
             // 
-            btnAdicionarCarta.Location = new Point(157, 293);
+            btnAdicionarCarta.Location = new Point(187, 292);
             btnAdicionarCarta.Name = "btnAdicionarCarta";
             btnAdicionarCarta.Size = new Size(85, 27);
             btnAdicionarCarta.TabIndex = 7;
@@ -117,7 +119,7 @@
             // 
             // txtAdicionarDeck
             // 
-            txtAdicionarDeck.Location = new Point(263, 293);
+            txtAdicionarDeck.Location = new Point(294, 293);
             txtAdicionarDeck.Name = "txtAdicionarDeck";
             txtAdicionarDeck.Size = new Size(206, 23);
             txtAdicionarDeck.TabIndex = 8;
@@ -125,17 +127,28 @@
             // lblAdicionarDeck
             // 
             lblAdicionarDeck.AutoSize = true;
-            lblAdicionarDeck.Location = new Point(263, 275);
+            lblAdicionarDeck.Location = new Point(294, 275);
             lblAdicionarDeck.Name = "lblAdicionarDeck";
             lblAdicionarDeck.Size = new Size(89, 15);
             lblAdicionarDeck.TabIndex = 9;
             lblAdicionarDeck.Text = "Nome do Deck:";
             // 
+            // btnExcluirDeck
+            // 
+            btnExcluirDeck.Location = new Point(217, 336);
+            btnExcluirDeck.Name = "btnExcluirDeck";
+            btnExcluirDeck.Size = new Size(60, 30);
+            btnExcluirDeck.TabIndex = 10;
+            btnExcluirDeck.Text = "Excluir";
+            btnExcluirDeck.UseVisualStyleBackColor = true;
+            btnExcluirDeck.Click += btnExcluirDeck_Click;
+            // 
             // DeckBuilderForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(491, 378);
+            ClientSize = new Size(524, 378);
+            Controls.Add(btnExcluirDeck);
             Controls.Add(lblAdicionarDeck);
             Controls.Add(txtAdicionarDeck);
             Controls.Add(btnAdicionarCarta);
@@ -165,5 +178,6 @@
         private Button btnAdicionarCarta;
         private TextBox txtAdicionarDeck;
         private Label lblAdicionarDeck;
+        private Button btnExcluirDeck;
     }
 }

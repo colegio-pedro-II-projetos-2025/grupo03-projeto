@@ -115,7 +115,7 @@
             // 
             // btnVoltar
             // 
-            btnVoltar.Location = new Point(187, 282);
+            btnVoltar.Location = new Point(83, 282);
             btnVoltar.Name = "btnVoltar";
             btnVoltar.Size = new Size(100, 42);
             btnVoltar.TabIndex = 15;
@@ -125,7 +125,7 @@
             // 
             // btnCadastrar
             // 
-            btnCadastrar.Location = new Point(81, 282);
+            btnCadastrar.Location = new Point(189, 282);
             btnCadastrar.Name = "btnCadastrar";
             btnCadastrar.Size = new Size(100, 42);
             btnCadastrar.TabIndex = 14;

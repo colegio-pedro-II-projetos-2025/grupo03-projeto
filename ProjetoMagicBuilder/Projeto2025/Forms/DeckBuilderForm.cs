@@ -17,6 +17,7 @@ namespace Projeto2025.Forms
     {
         private Usuario usuarioLogado { get; set; }
         private int DeckIndex { get; set; }
+        private int QuantidadeDeck { get; set; }
         public DeckBuilderForm()
         {
             InitializeComponent();
@@ -27,21 +28,21 @@ namespace Projeto2025.Forms
             usuarioLogado = usuario;
         }
 
-        private void AtualizarQuantidadeDecks()
+        private void AtualizarDecks()
         {
             var deckRepo = new DeckRepository(RepositoryUtil.ConnectionString);
-            int quantidadeDeck = deckRepo.ObterTodosDecksDeUsuario(usuarioLogado.Nome).Count();
-            lblNumeroDeck.Text = $"Deck {DeckIndex} de {quantidadeDeck}";
+            var decks = deckRepo.ObterDecksPorIdUsuario(usuarioLogado.Nome);
+            QuantidadeDeck = decks.Count();
+            lblNumeroDeck.Text = $"Deck {DeckIndex + 1} de {QuantidadeDeck}";
+            if (decks.Count > 0)
+            {
+                lblNomeDeck.Text = $"Deck {decks[DeckIndex].Nome}";
+            }
         }
 
         private void btnSair_Click(object sender, EventArgs e)
         {
             this.Close();
-        }
-
-        private void btnProximoDeck_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void btnAdicionarDeck_Click(object sender, EventArgs e)
@@ -59,12 +60,37 @@ namespace Projeto2025.Forms
                 Nome = txtAdicionarDeck.Text
             };
             deckRepo.AdicionarDeck(deck);
-            AtualizarQuantidadeDecks();
+            AtualizarDecks();
         }
 
         private void DeckBuilderForm_Load(object sender, EventArgs e)
         {
-            AtualizarQuantidadeDecks();
+            AtualizarDecks();
+        }
+
+        private void btnProximoDeck_Click(object sender, EventArgs e)
+        {
+            DeckIndex--;
+            if (DeckIndex < 0)
+            {
+                DeckIndex = QuantidadeDeck - 1;
+            }
+            AtualizarDecks();
+        }
+
+        private void btnAnteriorDeck_Click(object sender, EventArgs e)
+        {
+            DeckIndex++;
+            if (DeckIndex >= QuantidadeDeck)
+            {
+                DeckIndex = 0;
+            }
+            AtualizarDecks();
+        }
+
+        private void btnExcluirDeck_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
