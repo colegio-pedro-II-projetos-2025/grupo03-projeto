@@ -28,5 +28,10 @@ namespace Projeto2025.Forms
             CartaAleatoriaForm cartaAleatoriaForm = new CartaAleatoriaForm();
             cartaAleatoriaForm.Show();
         }
+
+        private void btnSair_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

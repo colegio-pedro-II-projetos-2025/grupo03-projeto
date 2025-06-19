@@ -16,5 +16,10 @@ namespace Projeto2025.Forms
         {
             InitializeComponent();
         }
+
+        private void btnSair_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
