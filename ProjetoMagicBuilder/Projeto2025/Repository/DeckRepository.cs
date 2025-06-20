@@ -1,5 +1,6 @@
 ﻿using MySql.Data.MySqlClient;
 using Projeto2025.Entity;
+using Projeto2025.Repository;
 using Projeto2025.Utils;
 using System;
 using System.Collections.Generic;
@@ -36,6 +37,7 @@ namespace Projeto2025.Repository
         public int RemoverDeck(int id)
         {
             int linhasAfetadas = -1;
+            var cartaDeck = new CartaDeckRepository(RepositoryUtil.ConnectionString);
             using (var connection = new MySqlConnection(_connectionString))
             {
                 connection.Open();
@@ -46,6 +48,7 @@ namespace Projeto2025.Repository
                     linhasAfetadas = command.ExecuteNonQuery();
                 }
             }
+            int CartasRemovidas = cartaDeck.DeckRemovido(id);
             return linhasAfetadas;
         }
         public List<Deck> ObterDecksPorIdUsuario(string nome)

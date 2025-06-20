@@ -3,6 +3,7 @@ using Projeto2025.Repository;
 using Projeto2025.Utils;
 using System;
 using System.Collections.Generic;
+using System.Collections.Immutable;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
@@ -33,11 +34,17 @@ namespace Projeto2025.Forms
             var deckRepo = new DeckRepository(RepositoryUtil.ConnectionString);
             var decks = deckRepo.ObterDecksPorIdUsuario(usuarioLogado.Nome);
             QuantidadeDeck = decks.Count();
-            lblNumeroDeck.Text = $"Deck {DeckIndex + 1} de {QuantidadeDeck}";
+
             if (decks.Count > 0)
             {
+                lblNumeroDeck.Text = $"Deck {DeckIndex + 1} de {QuantidadeDeck}";
                 lblNomeDeck.Text = $"Deck {decks[DeckIndex].Nome}";
+            } else if(decks.Count == 0)
+            {
+                lblNumeroDeck.Text = $"Deck {DeckIndex} de {QuantidadeDeck}";
+                lblNomeDeck.Text = $"Nenhum Deck Selecionado";
             }
+
         }
 
         private void btnSair_Click(object sender, EventArgs e)
@@ -89,6 +96,14 @@ namespace Projeto2025.Forms
         }
 
         private void btnExcluirDeck_Click(object sender, EventArgs e)
+        {
+            var deckRepo = new DeckRepository(RepositoryUtil.ConnectionString);
+            var decks = deckRepo.ObterDecksPorIdUsuario(usuarioLogado.Nome);
+            deckRepo.RemoverDeck(decks[DeckIndex].ID);
+            AtualizarDecks();
+        }
+
+        private void lblNumeroDeck_Click(object sender, EventArgs e)
         {
 
         }

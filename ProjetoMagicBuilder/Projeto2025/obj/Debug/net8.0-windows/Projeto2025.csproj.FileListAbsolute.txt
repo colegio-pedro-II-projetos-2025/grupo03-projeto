@@ -160,3 +160,43 @@ C:\Users\gabri\OneDrive\Área de Trabalho\projeto magic\grupo03-projeto\ProjetoM
 C:\Users\gabri\OneDrive\Área de Trabalho\projeto magic\grupo03-projeto\ProjetoMagicBuilder\Projeto2025\obj\Debug\net8.0-windows\ref\Projeto2025.dll
 C:\Users\gabri\OneDrive\Área de Trabalho\projeto magic\grupo03-projeto\ProjetoMagicBuilder\Projeto2025\obj\Debug\net8.0-windows\Projeto2025.Forms.CartaAleatoriaForm.resources
 C:\Users\gabri\OneDrive\Área de Trabalho\projeto magic\grupo03-projeto\ProjetoMagicBuilder\Projeto2025\obj\Debug\net8.0-windows\Projeto2025.Forms.AdicionarCartaForm.resources
+C:\Users\User\Desktop\Repository\ProjetoMagicBuilder\Projeto2025\bin\Debug\net8.0-windows\Projeto2025.exe
+C:\Users\User\Desktop\Repository\ProjetoMagicBuilder\Projeto2025\bin\Debug\net8.0-windows\Projeto2025.deps.json
+C:\Users\User\Desktop\Repository\ProjetoMagicBuilder\Projeto2025\bin\Debug\net8.0-windows\Projeto2025.runtimeconfig.json
+C:\Users\User\Desktop\Repository\ProjetoMagicBuilder\Projeto2025\bin\Debug\net8.0-windows\Projeto2025.dll
+C:\Users\User\Desktop\Repository\ProjetoMagicBuilder\Projeto2025\bin\Debug\net8.0-windows\Projeto2025.pdb
+C:\Users\User\Desktop\Repository\ProjetoMagicBuilder\Projeto2025\bin\Debug\net8.0-windows\BouncyCastle.Cryptography.dll
+C:\Users\User\Desktop\Repository\ProjetoMagicBuilder\Projeto2025\bin\Debug\net8.0-windows\Google.Protobuf.dll
+C:\Users\User\Desktop\Repository\ProjetoMagicBuilder\Projeto2025\bin\Debug\net8.0-windows\K4os.Compression.LZ4.dll
+C:\Users\User\Desktop\Repository\ProjetoMagicBuilder\Projeto2025\bin\Debug\net8.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\User\Desktop\Repository\ProjetoMagicBuilder\Projeto2025\bin\Debug\net8.0-windows\K4os.Hash.xxHash.dll
+C:\Users\User\Desktop\Repository\ProjetoMagicBuilder\Projeto2025\bin\Debug\net8.0-windows\MySql.Data.dll
+C:\Users\User\Desktop\Repository\ProjetoMagicBuilder\Projeto2025\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
+C:\Users\User\Desktop\Repository\ProjetoMagicBuilder\Projeto2025\bin\Debug\net8.0-windows\System.Text.Encodings.Web.dll
+C:\Users\User\Desktop\Repository\ProjetoMagicBuilder\Projeto2025\bin\Debug\net8.0-windows\System.Text.Json.dll
+C:\Users\User\Desktop\Repository\ProjetoMagicBuilder\Projeto2025\bin\Debug\net8.0-windows\ZstdSharp.dll
+C:\Users\User\Desktop\Repository\ProjetoMagicBuilder\Projeto2025\bin\Debug\net8.0-windows\runtimes\win-x64\native\comerr64.dll
+C:\Users\User\Desktop\Repository\ProjetoMagicBuilder\Projeto2025\bin\Debug\net8.0-windows\runtimes\win-x64\native\gssapi64.dll
+C:\Users\User\Desktop\Repository\ProjetoMagicBuilder\Projeto2025\bin\Debug\net8.0-windows\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\User\Desktop\Repository\ProjetoMagicBuilder\Projeto2025\bin\Debug\net8.0-windows\runtimes\win-x64\native\krb5_64.dll
+C:\Users\User\Desktop\Repository\ProjetoMagicBuilder\Projeto2025\bin\Debug\net8.0-windows\runtimes\win-x64\native\krbcc64.dll
+C:\Users\User\Desktop\Repository\ProjetoMagicBuilder\Projeto2025\bin\Debug\net8.0-windows\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+C:\Users\User\Desktop\Repository\ProjetoMagicBuilder\Projeto2025\obj\Debug\net8.0-windows\Projeto2025.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Repository\ProjetoMagicBuilder\Projeto2025\obj\Debug\net8.0-windows\Projeto2025.Forms.AdicionarCartaForm.resources
+C:\Users\User\Desktop\Repository\ProjetoMagicBuilder\Projeto2025\obj\Debug\net8.0-windows\Projeto2025.Forms.CartaAleatoriaForm.resources
+C:\Users\User\Desktop\Repository\ProjetoMagicBuilder\Projeto2025\obj\Debug\net8.0-windows\Projeto2025.Forms.DeckBuilderForm.resources
+C:\Users\User\Desktop\Repository\ProjetoMagicBuilder\Projeto2025\obj\Debug\net8.0-windows\Projeto2025.LoginForm.resources
+C:\Users\User\Desktop\Repository\ProjetoMagicBuilder\Projeto2025\obj\Debug\net8.0-windows\Projeto2025.Forms.SigninForm.resources
+C:\Users\User\Desktop\Repository\ProjetoMagicBuilder\Projeto2025\obj\Debug\net8.0-windows\Projeto2025.Forms.StartForm.resources
+C:\Users\User\Desktop\Repository\ProjetoMagicBuilder\Projeto2025\obj\Debug\net8.0-windows\Projeto2025.csproj.GenerateResource.cache
+C:\Users\User\Desktop\Repository\ProjetoMagicBuilder\Projeto2025\obj\Debug\net8.0-windows\Projeto2025.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\Repository\ProjetoMagicBuilder\Projeto2025\obj\Debug\net8.0-windows\Projeto2025.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Repository\ProjetoMagicBuilder\Projeto2025\obj\Debug\net8.0-windows\Projeto2025.AssemblyInfo.cs
+C:\Users\User\Desktop\Repository\ProjetoMagicBuilder\Projeto2025\obj\Debug\net8.0-windows\Projeto2025.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Repository\ProjetoMagicBuilder\Projeto2025\obj\Debug\net8.0-windows\Projeto2025.sourcelink.json
+C:\Users\User\Desktop\Repository\ProjetoMagicBuilder\Projeto2025\obj\Debug\net8.0-windows\Projeto2.B8F6D8C5.Up2Date
+C:\Users\User\Desktop\Repository\ProjetoMagicBuilder\Projeto2025\obj\Debug\net8.0-windows\Projeto2025.dll
+C:\Users\User\Desktop\Repository\ProjetoMagicBuilder\Projeto2025\obj\Debug\net8.0-windows\refint\Projeto2025.dll
+C:\Users\User\Desktop\Repository\ProjetoMagicBuilder\Projeto2025\obj\Debug\net8.0-windows\Projeto2025.pdb
+C:\Users\User\Desktop\Repository\ProjetoMagicBuilder\Projeto2025\obj\Debug\net8.0-windows\Projeto2025.genruntimeconfig.cache
+C:\Users\User\Desktop\Repository\ProjetoMagicBuilder\Projeto2025\obj\Debug\net8.0-windows\ref\Projeto2025.dll
