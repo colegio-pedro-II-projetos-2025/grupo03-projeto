@@ -32,8 +32,8 @@ namespace Projeto2025.Forms
         private void AtualizarDecks()
         {
             var deckRepo = new DeckRepository(RepositoryUtil.ConnectionString);
-            var decks = deckRepo.ObterDecksPorIdUsuario(usuarioLogado.Nome);
-            QuantidadeDeck = decks.Count();
+            List<Deck> decks = deckRepo.ObterDecksPorIdUsuario(usuarioLogado.Nome);
+            QuantidadeDeck = decks.Count;
 
             if (decks.Count > 0)
             {
@@ -46,6 +46,27 @@ namespace Projeto2025.Forms
                 lblNomeDeck.Text = $"Nenhum Deck Selecionado";
             }
 
+        }
+
+        private void AtualizarCartas()
+        {
+            var cartaDeckRepo = new CartaDeckRepository(RepositoryUtil.ConnectionString);
+            var deckRepo = new DeckRepository(RepositoryUtil.ConnectionString);
+
+            List<Deck> decks = deckRepo.ObterDecksPorIdUsuario(usuarioLogado.Nome);
+            int idDeck = decks[DeckIndex].ID;
+
+            List<CartaDeck> cartaDecks = cartaDeckRepo.ObterCartaDeckPorIdDeck(idDeck);
+            List<Carta> cartas = cartaDeckRepo.ObterCartasPorIdDeck(idDeck);
+
+            List<(Carta carta, int quantidade)> cartasComQuantidade = new List<(Carta carta, int quantidade)>();
+            for (int i = 0; i < cartaDecks.Count; i++)
+            {
+                cartasComQuantidade.Add((cartas[i], cartaDecks[i].Quantidade));
+            }
+
+            lstDeck.DataSource = cartas;
+            lstDeck.DisplayMember = "Nome";
         }
 
         private void btnSair_Click(object sender, EventArgs e)
@@ -74,6 +95,7 @@ namespace Projeto2025.Forms
         private void DeckBuilderForm_Load(object sender, EventArgs e)
         {
             AtualizarDecks();
+            AtualizarCartas();
         }
 
         private void btnProximoDeck_Click(object sender, EventArgs e)
@@ -98,10 +120,14 @@ namespace Projeto2025.Forms
 
         private void btnExcluirDeck_Click(object sender, EventArgs e)
         {
-            var deckRepo = new DeckRepository(RepositoryUtil.ConnectionString);
-            var decks = deckRepo.ObterDecksPorIdUsuario(usuarioLogado.Nome);
-            deckRepo.RemoverDeck(decks[DeckIndex].ID);
-            AtualizarDecks();
+            var dialogResult = MessageBox.Show("Tem certeza que deseja excluir esse deck?", "Excluir Deck", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (dialogResult == DialogResult.Yes)
+            {
+                var deckRepo = new DeckRepository(RepositoryUtil.ConnectionString);
+                var decks = deckRepo.ObterDecksPorIdUsuario(usuarioLogado.Nome);
+                deckRepo.RemoverDeck(decks[DeckIndex].ID);
+                AtualizarDecks();
+            }
         }
 
         private void lblNumeroDeck_Click(object sender, EventArgs e)
@@ -112,7 +138,33 @@ namespace Projeto2025.Forms
         private void btnAdicionarCarta_Click(object sender, EventArgs e)
         {
             var adicionarCartaForm = new AdicionarCartaForm(this.DeckIndex);
+            adicionarCartaForm.AoSairFormulario += AdicionarCartaForm_AoSairFormulario;
             adicionarCartaForm.Show();
+            adicionarCartaForm.ReceberUsuario(usuarioLogado);
+        }
+
+        private void AdicionarCartaForm_AoSairFormulario(object? sender, string e)
+        {
+            AtualizarCartas();
+        }
+
+        private void lstDeck_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (lstDeck.SelectedItem is Carta selecionado)
+            {
+                lblNome.Text = selecionado.Nome;
+                lblTxt.Text = selecionado.Descricao;
+                lblManaValue.Text = selecionado.Mana.ToString();
+                lblPoderValue.Text = selecionado.Poder.ToString() ?? "-";
+                lblResistenciaValue.Text = selecionado.Resistencia.ToString() ?? "-";
+                lblQuantidade.Text = selecionado.
+            }
+        }
+
+        private void btnColapsarDuplicatas_Click(object sender, EventArgs e)
+        {
+            var cartaDeckRepo = new CartaDeckRepository(RepositoryUtil.ConnectionString);
+            cartaDeckRepo.ColapsarCartasDuplicatas();
         }
     }
 }

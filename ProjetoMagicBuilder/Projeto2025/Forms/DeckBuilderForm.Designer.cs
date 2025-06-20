@@ -39,6 +39,18 @@
             txtAdicionarDeck = new TextBox();
             lblAdicionarDeck = new Label();
             btnExcluirDeck = new Button();
+            btnColapsarDuplicatas = new Button();
+            lblTxt = new Label();
+            lblSlash2 = new Label();
+            lblSlash1 = new Label();
+            lblResistenciaValue = new Label();
+            lblPoderValue = new Label();
+            lblManaValue = new Label();
+            lblResistenciaText = new Label();
+            lblPoderText = new Label();
+            lblManaText = new Label();
+            lblNome = new Label();
+            lblQuantidade = new Label();
             SuspendLayout();
             // 
             // btnProximoDeck
@@ -68,6 +80,7 @@
             lstDeck.Name = "lstDeck";
             lstDeck.Size = new Size(265, 289);
             lstDeck.TabIndex = 0;
+            lstDeck.SelectedIndexChanged += lstDeck_SelectedIndexChanged;
             // 
             // btnAnteriorDeck
             // 
@@ -144,11 +157,143 @@
             btnExcluirDeck.UseVisualStyleBackColor = true;
             btnExcluirDeck.Click += btnExcluirDeck_Click;
             // 
+            // btnColapsarDuplicatas
+            // 
+            btnColapsarDuplicatas.Location = new Point(151, 259);
+            btnColapsarDuplicatas.Name = "btnColapsarDuplicatas";
+            btnColapsarDuplicatas.Size = new Size(121, 27);
+            btnColapsarDuplicatas.TabIndex = 11;
+            btnColapsarDuplicatas.Text = "Colapsar Duplicatas";
+            btnColapsarDuplicatas.UseVisualStyleBackColor = true;
+            btnColapsarDuplicatas.Click += btnColapsarDuplicatas_Click;
+            // 
+            // lblTxt
+            // 
+            lblTxt.AutoSize = true;
+            lblTxt.Location = new Point(286, 51);
+            lblTxt.MaximumSize = new Size(230, 165);
+            lblTxt.Name = "lblTxt";
+            lblTxt.Size = new Size(90, 15);
+            lblTxt.TabIndex = 28;
+            lblTxt.Text = "(Texto da Carta)";
+            // 
+            // lblSlash2
+            // 
+            lblSlash2.AutoSize = true;
+            lblSlash2.Location = new Point(431, 228);
+            lblSlash2.Name = "lblSlash2";
+            lblSlash2.Size = new Size(12, 15);
+            lblSlash2.TabIndex = 27;
+            lblSlash2.Text = "/";
+            // 
+            // lblSlash1
+            // 
+            lblSlash1.AutoSize = true;
+            lblSlash1.Location = new Point(431, 213);
+            lblSlash1.Name = "lblSlash1";
+            lblSlash1.Size = new Size(12, 15);
+            lblSlash1.TabIndex = 26;
+            lblSlash1.Text = "/";
+            // 
+            // lblResistenciaValue
+            // 
+            lblResistenciaValue.AutoSize = true;
+            lblResistenciaValue.Font = new Font("Segoe UI Black", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblResistenciaValue.ForeColor = Color.ForestGreen;
+            lblResistenciaValue.Location = new Point(420, 213);
+            lblResistenciaValue.Name = "lblResistenciaValue";
+            lblResistenciaValue.Size = new Size(14, 15);
+            lblResistenciaValue.TabIndex = 25;
+            lblResistenciaValue.Text = "0";
+            // 
+            // lblPoderValue
+            // 
+            lblPoderValue.AutoSize = true;
+            lblPoderValue.Font = new Font("Segoe UI Black", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblPoderValue.ForeColor = Color.Red;
+            lblPoderValue.Location = new Point(440, 213);
+            lblPoderValue.Name = "lblPoderValue";
+            lblPoderValue.Size = new Size(14, 15);
+            lblPoderValue.TabIndex = 24;
+            lblPoderValue.Text = "0";
+            // 
+            // lblManaValue
+            // 
+            lblManaValue.AutoSize = true;
+            lblManaValue.Font = new Font("Segoe UI Black", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblManaValue.ForeColor = Color.RoyalBlue;
+            lblManaValue.Location = new Point(508, 36);
+            lblManaValue.Name = "lblManaValue";
+            lblManaValue.Size = new Size(14, 15);
+            lblManaValue.TabIndex = 23;
+            lblManaValue.Text = "0";
+            // 
+            // lblResistenciaText
+            // 
+            lblResistenciaText.AutoSize = true;
+            lblResistenciaText.Font = new Font("Segoe UI Black", 9F, FontStyle.Bold);
+            lblResistenciaText.ForeColor = Color.Red;
+            lblResistenciaText.Location = new Point(440, 228);
+            lblResistenciaText.Name = "lblResistenciaText";
+            lblResistenciaText.Size = new Size(82, 15);
+            lblResistenciaText.TabIndex = 22;
+            lblResistenciaText.Text = "Resistência: ";
+            // 
+            // lblPoderText
+            // 
+            lblPoderText.AutoSize = true;
+            lblPoderText.Font = new Font("Segoe UI Black", 9F, FontStyle.Bold);
+            lblPoderText.ForeColor = Color.ForestGreen;
+            lblPoderText.Location = new Point(390, 228);
+            lblPoderText.Name = "lblPoderText";
+            lblPoderText.Size = new Size(50, 15);
+            lblPoderText.TabIndex = 21;
+            lblPoderText.Text = "Poder: ";
+            // 
+            // lblManaText
+            // 
+            lblManaText.AutoSize = true;
+            lblManaText.Location = new Point(468, 36);
+            lblManaText.Name = "lblManaText";
+            lblManaText.Size = new Size(43, 15);
+            lblManaText.TabIndex = 20;
+            lblManaText.Text = "Mana: ";
+            // 
+            // lblNome
+            // 
+            lblNome.AutoSize = true;
+            lblNome.Location = new Point(286, 36);
+            lblNome.Name = "lblNome";
+            lblNome.Size = new Size(95, 15);
+            lblNome.TabIndex = 19;
+            lblNome.Text = "(Nome da Carta)";
+            // 
+            // lblQuantidade
+            // 
+            lblQuantidade.AutoSize = true;
+            lblQuantidade.Location = new Point(286, 66);
+            lblQuantidade.Name = "lblQuantidade";
+            lblQuantidade.Size = new Size(72, 15);
+            lblQuantidade.TabIndex = 29;
+            lblQuantidade.Text = "Quantidade:";
+            // 
             // DeckBuilderForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(524, 378);
+            Controls.Add(lblQuantidade);
+            Controls.Add(lblTxt);
+            Controls.Add(lblSlash2);
+            Controls.Add(lblSlash1);
+            Controls.Add(lblResistenciaValue);
+            Controls.Add(lblPoderValue);
+            Controls.Add(lblManaValue);
+            Controls.Add(lblResistenciaText);
+            Controls.Add(lblPoderText);
+            Controls.Add(lblManaText);
+            Controls.Add(lblNome);
+            Controls.Add(btnColapsarDuplicatas);
             Controls.Add(btnExcluirDeck);
             Controls.Add(lblAdicionarDeck);
             Controls.Add(txtAdicionarDeck);
@@ -180,5 +325,17 @@
         private TextBox txtAdicionarDeck;
         private Label lblAdicionarDeck;
         private Button btnExcluirDeck;
+        private Button btnColapsarDuplicatas;
+        private Label lblTxt;
+        private Label lblSlash2;
+        private Label lblSlash1;
+        private Label lblResistenciaValue;
+        private Label lblPoderValue;
+        private Label lblManaValue;
+        private Label lblResistenciaText;
+        private Label lblPoderText;
+        private Label lblManaText;
+        private Label lblNome;
+        private Label lblQuantidade;
     }
 }

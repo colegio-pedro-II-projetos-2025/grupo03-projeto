@@ -161,6 +161,7 @@
             ForeColor = SystemColors.ControlText;
             Name = "SigninForm";
             Text = "Cadastrar";
+            Load += SigninForm_Load;
             ResumeLayout(false);
             PerformLayout();
         }

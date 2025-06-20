@@ -22,7 +22,7 @@ namespace Projeto2025.Forms
         {
             InitializeComponent();
         }
-         
+
         private void LimparCampos()
         {
             txtNome.Text = string.Empty;
@@ -105,6 +105,11 @@ namespace Projeto2025.Forms
             {
                 lblErro.Text = "Erro inesperado: " + ex.Message;
             }
+        }
+
+        private void SigninForm_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -18,6 +18,7 @@ namespace Projeto2025.Forms
     {
         private int DeckIndex;
         private Usuario usuarioLogado { get; set; }
+        public event EventHandler<string> AoSairFormulario;
         public AdicionarCartaForm(int deckIndex)
         {
             InitializeComponent();
@@ -47,10 +48,6 @@ namespace Projeto2025.Forms
             List<Carta> cartas = cartaRepo.ObterTodasCartas();
             lstCartas.DataSource = cartas;
             lstCartas.DisplayMember = "Nome";
-            foreach (var carta in cartas)
-            {
-                lstCartas.Items.Add(carta);
-            }
         }
 
         private void btnAdicionarCarta_Click(object sender, EventArgs e)
@@ -58,7 +55,7 @@ namespace Projeto2025.Forms
             var cartaDeckRepo = new CartaDeckRepository(RepositoryUtil.ConnectionString);
             var deckRepo = new DeckRepository(RepositoryUtil.ConnectionString);
             var decks = deckRepo.ObterDecksPorIdUsuario(usuarioLogado.Nome);
-            int IdDeck = decks[DeckIndex].ID;
+            int idDeck = decks[DeckIndex].ID;
             Carta selecionado = (Carta)lstCartas.SelectedItem;
             if (selecionado == null)
             {
@@ -68,12 +65,14 @@ namespace Projeto2025.Forms
             else
             {
                 int quantidade = (int)numQuant.Value;
-                int Adicionado = cartaDeckRepo.AdicionarCartaAoDeck(selecionado.ID, IdDeck, quantidade);
+                cartaDeckRepo.AdicionarCartaAoDeck(selecionado.ID, idDeck, quantidade);
+                lblAdicionado.Text = "Carta adicionada com sucesso!";
             }
         }
 
         private void btnVoltar_Click(object sender, EventArgs e)
         {
+            AoSairFormulario?.Invoke(this, null);
             this.Close();
         }
 
