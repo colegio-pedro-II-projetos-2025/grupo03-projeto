@@ -19,10 +19,12 @@ namespace Projeto2025.Repository
         public List<Carta> ObterTodasCartas()
         {
             var cartas = new List<Carta>();
+
             using (var connection = new MySqlConnection(_connectionString))
             {
                 connection.Open();
                 string query = "SELECT * FROM cartas";
+
                 using (var command = new MySqlCommand(query, connection))
                 {
                     using (var reader = command.ExecuteReader())
@@ -32,10 +34,17 @@ namespace Projeto2025.Repository
                             cartas.Add(new Carta
                             {
                                 Nome = reader.GetString("nome"),
-                                ID = reader.GetInt32("id"),
-                                Mana = reader.GetInt32("mana"),
-                                Poder = reader.GetInt32("poder"),
-                                Resistencia = reader.GetInt32("resistencia"),
+                                ID = reader.GetInt32(reader.GetOrdinal("id")),
+                                Mana = reader.GetInt32(reader.GetOrdinal("mana")),
+
+                                Poder = reader.IsDBNull(reader.GetOrdinal("poder"))
+                                    ? (int?)null
+                                    : reader.GetInt32(reader.GetOrdinal("poder")),
+
+                                Resistencia = reader.IsDBNull(reader.GetOrdinal("resistencia"))
+                                    ? (int?)null
+                                    : reader.GetInt32(reader.GetOrdinal("resistencia")),
+
                                 Tipo = reader.GetString("tipo"),
                                 Descricao = reader.GetString("descricao"),
                                 Cor = reader.GetString("cor")

@@ -1,5 +1,6 @@
 ﻿using MySql.Data.MySqlClient;
 using Projeto2025.Entity;
+using Projeto2025.Forms;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -63,16 +64,16 @@ namespace Projeto2025.Repository
             }
             return linhasAfetadas;
         }
-        public int AdicionarCartaAoDeck(int idUsuario, int idCarta)
+        public int AdicionarCartaAoDeck(int idUsuario, int idCarta, int quantidade)
         {
             int linhasAfetadas = -1;
             using (var connection = new MySqlConnection(_connectionString))
             {
                 connection.Open();
-                string query = "DELETE FROM deck_cartas WHERE deck = @ID";
+                string query = "INSERT INTO deck_cartas(carta,deck,quantidade) VALUES(,);";
                 using (var command = new MySqlCommand(query, connection))
                 {
-                    command.Parameters.AddWithValue("@ID", id);
+                    command.Parameters.AddWithValue("@ID",  idCarta);
                     linhasAfetadas = command.ExecuteNonQuery();
                 }
             }

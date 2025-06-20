@@ -11,8 +11,8 @@ namespace Projeto2025.Entity
         public string Nome { get; set; }
         public int ID { get; set; }
         public int Mana { get; set; }
-        public int Poder { get; set; }
-        public int Resistencia { get; set; }
+        public int? Poder { get; set; }
+        public int? Resistencia { get; set; }
         public string Tipo { get; set; }
         public string Descricao { get; set; }
         public string Cor { get; set; }

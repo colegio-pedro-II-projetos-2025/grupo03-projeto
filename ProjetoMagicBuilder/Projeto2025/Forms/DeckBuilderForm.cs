@@ -17,7 +17,7 @@ namespace Projeto2025.Forms
     public partial class DeckBuilderForm : Form
     {
         private Usuario usuarioLogado { get; set; }
-        private int DeckIndex { get; set; }
+        public int DeckIndex { get; set; }
         private int QuantidadeDeck { get; set; }
         public DeckBuilderForm()
         {
@@ -111,7 +111,7 @@ namespace Projeto2025.Forms
 
         private void btnAdicionarCarta_Click(object sender, EventArgs e)
         {
-            AdicionarCartaForm adicionarCartaForm = new AdicionarCartaForm();
+            var adicionarCartaForm = new AdicionarCartaForm(this.DeckIndex);
             adicionarCartaForm.Show();
         }
     }
