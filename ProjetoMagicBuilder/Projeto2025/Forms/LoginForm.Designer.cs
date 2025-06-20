@@ -117,7 +117,7 @@
             Controls.Add(lblEmail);
             Controls.Add(txtEmail);
             Name = "LoginForm";
-            Text = "MagicBuilder";
+            Text = "Magic Builder";
             ResumeLayout(false);
             PerformLayout();
         }

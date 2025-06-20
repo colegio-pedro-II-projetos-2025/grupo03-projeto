@@ -63,5 +63,20 @@ namespace Projeto2025.Repository
             }
             return linhasAfetadas;
         }
+        public int AdicionarCartaAoDeck(int idUsuario, int idCarta)
+        {
+            int linhasAfetadas = -1;
+            using (var connection = new MySqlConnection(_connectionString))
+            {
+                connection.Open();
+                string query = "DELETE FROM deck_cartas WHERE deck = @ID";
+                using (var command = new MySqlCommand(query, connection))
+                {
+                    command.Parameters.AddWithValue("@ID", id);
+                    linhasAfetadas = command.ExecuteNonQuery();
+                }
+            }
+            return linhasAfetadas;
+        }
     }
 }

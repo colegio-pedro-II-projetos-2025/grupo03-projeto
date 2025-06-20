@@ -116,6 +116,7 @@
             btnAdicionarCarta.TabIndex = 7;
             btnAdicionarCarta.Text = "Adicionar...";
             btnAdicionarCarta.UseVisualStyleBackColor = true;
+            btnAdicionarCarta.Click += btnAdicionarCarta_Click;
             // 
             // txtAdicionarDeck
             // 
@@ -160,7 +161,7 @@
             Controls.Add(lstDeck);
             Controls.Add(lblNomeDeck);
             Name = "DeckBuilderForm";
-            Text = "DeckBuilderForm";
+            Text = "Deck Builder";
             Load += DeckBuilderForm_Load;
             ResumeLayout(false);
             PerformLayout();

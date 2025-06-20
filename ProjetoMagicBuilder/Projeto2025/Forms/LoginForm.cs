@@ -36,6 +36,7 @@ namespace Projeto2025
                 DeckBuilderForm deckBuilderForm = new DeckBuilderForm();
                 deckBuilderForm.ReceberUsuario(usuario);
                 deckBuilderForm.Show();
+                this.Close();
             }
             else
             {

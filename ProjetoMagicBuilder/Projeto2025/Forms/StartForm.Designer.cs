@@ -84,7 +84,7 @@
             Controls.Add(btnDeckBuilder);
             Controls.Add(lblTitulo);
             Name = "StartForm";
-            Text = "StartForm";
+            Text = "Magic Builder";
             ResumeLayout(false);
             PerformLayout();
         }

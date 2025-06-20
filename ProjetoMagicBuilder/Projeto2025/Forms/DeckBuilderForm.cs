@@ -39,7 +39,8 @@ namespace Projeto2025.Forms
             {
                 lblNumeroDeck.Text = $"Deck {DeckIndex + 1} de {QuantidadeDeck}";
                 lblNomeDeck.Text = $"Deck {decks[DeckIndex].Nome}";
-            } else if(decks.Count == 0)
+            }
+            else if (decks.Count == 0)
             {
                 lblNumeroDeck.Text = $"Deck {DeckIndex} de {QuantidadeDeck}";
                 lblNomeDeck.Text = $"Nenhum Deck Selecionado";
@@ -106,6 +107,12 @@ namespace Projeto2025.Forms
         private void lblNumeroDeck_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnAdicionarCarta_Click(object sender, EventArgs e)
+        {
+            AdicionarCartaForm adicionarCartaForm = new AdicionarCartaForm();
+            adicionarCartaForm.Show();
         }
     }
 }
