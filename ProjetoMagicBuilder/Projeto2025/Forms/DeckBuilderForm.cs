@@ -59,14 +59,18 @@ namespace Projeto2025.Forms
             List<CartaDeck> cartaDecks = cartaDeckRepo.ObterCartaDeckPorIdDeck(idDeck);
             List<Carta> cartas = cartaDeckRepo.ObterCartasPorIdDeck(idDeck);
 
-            List<(Carta carta, int quantidade)> cartasComQuantidade = new List<(Carta carta, int quantidade)>();
+            var cartasComQuantidade = new List<CartaComQuantidade>();
             for (int i = 0; i < cartaDecks.Count; i++)
             {
-                cartasComQuantidade.Add((cartas[i], cartaDecks[i].Quantidade));
+                cartasComQuantidade.Add(new CartaComQuantidade
+                {
+                    Carta = cartas[i],
+                    Quantidade = cartaDecks[i].Quantidade
+                });
             }
 
-            lstDeck.DataSource = cartas;
-            lstDeck.DisplayMember = "Nome";
+            lstDeck.DataSource = cartasComQuantidade;
+            lstDeck.DisplayMember = "NomeDaCarta";
         }
 
         private void btnSair_Click(object sender, EventArgs e)
@@ -150,14 +154,14 @@ namespace Projeto2025.Forms
 
         private void lstDeck_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if (lstDeck.SelectedItem is Carta selecionado)
+            if (lstDeck.SelectedItem is CartaComQuantidade cartaComQuantidade)
             {
-                lblNome.Text = selecionado.Nome;
-                lblTxt.Text = selecionado.Descricao;
-                lblManaValue.Text = selecionado.Mana.ToString();
-                lblPoderValue.Text = selecionado.Poder.ToString() ?? "-";
-                lblResistenciaValue.Text = selecionado.Resistencia.ToString() ?? "-";
-                lblQuantidade.Text = selecionado.
+                lblNome.Text = cartaComQuantidade.Carta.Nome;
+                lblTxt.Text = cartaComQuantidade.Carta.Descricao;
+                lblManaValue.Text = cartaComQuantidade.Carta.Mana.ToString();
+                lblPoderValue.Text = cartaComQuantidade.Carta.Poder.ToString() ?? "-";
+                lblResistenciaValue.Text = cartaComQuantidade.Carta.Resistencia.ToString() ?? "-";
+                lblQuantidade.Text = cartaComQuantidade.Quantidade.ToString();
             }
         }
 

@@ -125,7 +125,7 @@ namespace Projeto2025.Repository
                             {
                                 IdDeck = reader.GetInt32("deck"),
                                 IdCarta = reader.GetInt32("carta"),
-                                Quantidade = reader.GetInt32("quantidade"),
+                                Quantidade = reader.GetInt32("quantidade")
                             });
                         }
                     }
