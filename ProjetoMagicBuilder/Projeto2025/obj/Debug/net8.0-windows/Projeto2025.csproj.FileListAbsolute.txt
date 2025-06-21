@@ -200,3 +200,4 @@ C:\Users\User\Desktop\Repository\ProjetoMagicBuilder\Projeto2025\obj\Debug\net8.
 C:\Users\User\Desktop\Repository\ProjetoMagicBuilder\Projeto2025\obj\Debug\net8.0-windows\Projeto2025.pdb
 C:\Users\User\Desktop\Repository\ProjetoMagicBuilder\Projeto2025\obj\Debug\net8.0-windows\Projeto2025.genruntimeconfig.cache
 C:\Users\User\Desktop\Repository\ProjetoMagicBuilder\Projeto2025\obj\Debug\net8.0-windows\ref\Projeto2025.dll
+C:\Users\gabri\OneDrive\Área de Trabalho\projeto magic\grupo03-projeto\ProjetoMagicBuilder\Projeto2025\obj\Debug\net8.0-windows\Projeto2025.Forms.SelectorForm.resources

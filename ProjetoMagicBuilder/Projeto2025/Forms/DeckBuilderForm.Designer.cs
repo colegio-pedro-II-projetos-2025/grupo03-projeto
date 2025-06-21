@@ -271,7 +271,7 @@
             // lblQuantidade
             // 
             lblQuantidade.AutoSize = true;
-            lblQuantidade.Location = new Point(286, 66);
+            lblQuantidade.Location = new Point(283, 213);
             lblQuantidade.Name = "lblQuantidade";
             lblQuantidade.Size = new Size(72, 15);
             lblQuantidade.TabIndex = 29;

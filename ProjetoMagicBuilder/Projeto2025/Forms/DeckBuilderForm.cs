@@ -16,7 +16,7 @@ namespace Projeto2025.Forms
 {
     public partial class DeckBuilderForm : Form
     {
-        private Usuario usuarioLogado { get; set; }
+        private Usuario UsuarioLogado { get; set; }
         public int DeckIndex { get; set; }
         private int QuantidadeDeck { get; set; }
         public DeckBuilderForm()
@@ -26,13 +26,13 @@ namespace Projeto2025.Forms
 
         internal void ReceberUsuario(Usuario usuario)
         {
-            usuarioLogado = usuario;
+            UsuarioLogado = usuario;
         }
 
         private void AtualizarDecks()
         {
             var deckRepo = new DeckRepository(RepositoryUtil.ConnectionString);
-            List<Deck> decks = deckRepo.ObterDecksPorIdUsuario(usuarioLogado.Nome);
+            List<Deck> decks = deckRepo.ObterDecksPorIdUsuario(UsuarioLogado.Nome);
             QuantidadeDeck = decks.Count;
 
             if (decks.Count > 0)
@@ -53,7 +53,7 @@ namespace Projeto2025.Forms
             var cartaDeckRepo = new CartaDeckRepository(RepositoryUtil.ConnectionString);
             var deckRepo = new DeckRepository(RepositoryUtil.ConnectionString);
 
-            List<Deck> decks = deckRepo.ObterDecksPorIdUsuario(usuarioLogado.Nome);
+            List<Deck> decks = deckRepo.ObterDecksPorIdUsuario(UsuarioLogado.Nome);
             int idDeck = decks[DeckIndex].ID;
 
             List<CartaDeck> cartaDecks = cartaDeckRepo.ObterCartaDeckPorIdDeck(idDeck);
@@ -89,7 +89,7 @@ namespace Projeto2025.Forms
 
             var deck = new Deck()
             {
-                Dono = usuarioLogado.Nome,
+                Dono = UsuarioLogado.Nome,
                 Nome = txtAdicionarDeck.Text
             };
             deckRepo.AdicionarDeck(deck);
@@ -128,7 +128,7 @@ namespace Projeto2025.Forms
             if (dialogResult == DialogResult.Yes)
             {
                 var deckRepo = new DeckRepository(RepositoryUtil.ConnectionString);
-                var decks = deckRepo.ObterDecksPorIdUsuario(usuarioLogado.Nome);
+                var decks = deckRepo.ObterDecksPorIdUsuario(UsuarioLogado.Nome);
                 deckRepo.RemoverDeck(decks[DeckIndex].ID);
                 AtualizarDecks();
             }
@@ -144,7 +144,7 @@ namespace Projeto2025.Forms
             var adicionarCartaForm = new AdicionarCartaForm(this.DeckIndex);
             adicionarCartaForm.AoSairFormulario += AdicionarCartaForm_AoSairFormulario;
             adicionarCartaForm.Show();
-            adicionarCartaForm.ReceberUsuario(usuarioLogado);
+            adicionarCartaForm.ReceberUsuario(UsuarioLogado);
         }
 
         private void AdicionarCartaForm_AoSairFormulario(object? sender, string e)
@@ -161,7 +161,7 @@ namespace Projeto2025.Forms
                 lblManaValue.Text = cartaComQuantidade.Carta.Mana.ToString();
                 lblPoderValue.Text = cartaComQuantidade.Carta.Poder.ToString() ?? "-";
                 lblResistenciaValue.Text = cartaComQuantidade.Carta.Resistencia.ToString() ?? "-";
-                lblQuantidade.Text = cartaComQuantidade.Quantidade.ToString();
+                lblQuantidade.Text = "Quantidade: " + cartaComQuantidade.Quantidade.ToString();
             }
         }
 

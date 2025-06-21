@@ -13,6 +13,9 @@
     <Compile Update="Forms\LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Forms\SelectorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Forms\SigninForm.cs">
       <SubType>Form</SubType>
     </Compile>

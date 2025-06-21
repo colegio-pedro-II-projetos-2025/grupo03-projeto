@@ -29,8 +29,7 @@
         private void InitializeComponent()
         {
             lblTitulo = new Label();
-            btnDeckBuilder = new Button();
-            btnCartaAleatoria = new Button();
+            btnLogin = new Button();
             btnSair = new Button();
             SuspendLayout();
             // 
@@ -38,35 +37,25 @@
             // 
             lblTitulo.AutoSize = true;
             lblTitulo.Font = new Font("Segoe UI", 36F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblTitulo.Location = new Point(140, 32);
+            lblTitulo.Location = new Point(139, 39);
             lblTitulo.Name = "lblTitulo";
             lblTitulo.Size = new Size(343, 65);
             lblTitulo.TabIndex = 0;
             lblTitulo.Text = "Magic Builder";
             // 
-            // btnDeckBuilder
+            // btnLogin
             // 
-            btnDeckBuilder.Location = new Point(211, 100);
-            btnDeckBuilder.Name = "btnDeckBuilder";
-            btnDeckBuilder.Size = new Size(189, 45);
-            btnDeckBuilder.TabIndex = 1;
-            btnDeckBuilder.Text = "Deck Builder";
-            btnDeckBuilder.UseVisualStyleBackColor = true;
-            btnDeckBuilder.Click += btnDeckBuilder_Click;
-            // 
-            // btnCartaAleatoria
-            // 
-            btnCartaAleatoria.Location = new Point(211, 151);
-            btnCartaAleatoria.Name = "btnCartaAleatoria";
-            btnCartaAleatoria.Size = new Size(189, 45);
-            btnCartaAleatoria.TabIndex = 2;
-            btnCartaAleatoria.Text = "Carta Aleatória";
-            btnCartaAleatoria.UseVisualStyleBackColor = true;
-            btnCartaAleatoria.Click += btnCartaAleatoria_Click;
+            btnLogin.Location = new Point(211, 138);
+            btnLogin.Name = "btnLogin";
+            btnLogin.Size = new Size(189, 45);
+            btnLogin.TabIndex = 1;
+            btnLogin.Text = "Login";
+            btnLogin.UseVisualStyleBackColor = true;
+            btnLogin.Click += btnDeckBuilder_Click;
             // 
             // btnSair
             // 
-            btnSair.Location = new Point(211, 202);
+            btnSair.Location = new Point(211, 189);
             btnSair.Name = "btnSair";
             btnSair.Size = new Size(189, 45);
             btnSair.TabIndex = 3;
@@ -80,8 +69,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(609, 312);
             Controls.Add(btnSair);
-            Controls.Add(btnCartaAleatoria);
-            Controls.Add(btnDeckBuilder);
+            Controls.Add(btnLogin);
             Controls.Add(lblTitulo);
             Name = "StartForm";
             Text = "Magic Builder";
@@ -92,8 +80,7 @@
         #endregion
 
         private Label lblTitulo;
-        private Button btnDeckBuilder;
-        private Button btnCartaAleatoria;
+        private Button btnLogin;
         private Button btnSair;
     }
 }

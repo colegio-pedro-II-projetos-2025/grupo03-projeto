@@ -33,9 +33,9 @@ namespace Projeto2025
 
             if (usuario != null)
             {
-                DeckBuilderForm deckBuilderForm = new DeckBuilderForm();
-                deckBuilderForm.ReceberUsuario(usuario);
-                deckBuilderForm.Show();
+                SelectorForm selectorForm = new SelectorForm();
+                selectorForm.ReceberUsuario(usuario);
+                selectorForm.Show();
                 this.Close();
             }
             else

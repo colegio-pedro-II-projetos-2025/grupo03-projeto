@@ -65,5 +65,23 @@ namespace Projeto2025.Repository
             }
             return linhasAfetadas;
         }
+
+        public int MudarRecorde(int vitorias, int partidas, string email)
+        {
+            int linhasAfetadas = -1;
+            using (var connection = new MySqlConnection(_connectionString))
+            {
+                connection.Open();
+                string query = "UPDATE usuario SET vitorias = @Vitorias, partidas = @Partidas WHERE email = @Email";
+                using (var command = new MySqlCommand(query, connection))
+                {
+                    command.Parameters.AddWithValue("@Email", email);
+                    command.Parameters.AddWithValue("@Partidas", partidas);
+                    command.Parameters.AddWithValue("@Vitorias", vitorias);
+                    linhasAfetadas = command.ExecuteNonQuery();
+                }
+            }
+            return linhasAfetadas;
+        }
     }
 }
