@@ -99,7 +99,6 @@ namespace Projeto2025.Forms
         private void DeckBuilderForm_Load(object sender, EventArgs e)
         {
             AtualizarDecks();
-            AtualizarCartas();
         }
 
         private void btnProximoDeck_Click(object sender, EventArgs e)
