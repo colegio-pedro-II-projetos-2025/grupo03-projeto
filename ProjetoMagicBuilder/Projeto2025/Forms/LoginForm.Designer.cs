@@ -40,7 +40,7 @@
             // txtEmail
             // 
             txtEmail.Font = new Font("Segoe UI Semilight", 9.75F);
-            txtEmail.Location = new Point(78, 85);
+            txtEmail.Location = new Point(78, 33);
             txtEmail.MinimumSize = new Size(0, 33);
             txtEmail.Name = "txtEmail";
             txtEmail.Size = new Size(349, 33);
@@ -49,7 +49,7 @@
             // lblEmail
             // 
             lblEmail.AutoSize = true;
-            lblEmail.Location = new Point(78, 67);
+            lblEmail.Location = new Point(78, 15);
             lblEmail.Name = "lblEmail";
             lblEmail.Size = new Size(39, 15);
             lblEmail.TabIndex = 1;
@@ -57,7 +57,7 @@
             // 
             // btnEntrar
             // 
-            btnEntrar.Location = new Point(190, 178);
+            btnEntrar.Location = new Point(190, 126);
             btnEntrar.Name = "btnEntrar";
             btnEntrar.Size = new Size(100, 42);
             btnEntrar.TabIndex = 2;
@@ -68,7 +68,7 @@
             // lnkCadastar
             // 
             lnkCadastar.AutoSize = true;
-            lnkCadastar.Location = new Point(296, 178);
+            lnkCadastar.Location = new Point(296, 126);
             lnkCadastar.Name = "lnkCadastar";
             lnkCadastar.Size = new Size(131, 15);
             lnkCadastar.TabIndex = 3;
@@ -79,7 +79,7 @@
             // lblSenha
             // 
             lblSenha.AutoSize = true;
-            lblSenha.Location = new Point(78, 121);
+            lblSenha.Location = new Point(78, 69);
             lblSenha.Name = "lblSenha";
             lblSenha.Size = new Size(42, 15);
             lblSenha.TabIndex = 5;
@@ -88,7 +88,7 @@
             // txtSenha
             // 
             txtSenha.Font = new Font("Segoe UI Semilight", 9.75F);
-            txtSenha.Location = new Point(78, 139);
+            txtSenha.Location = new Point(78, 87);
             txtSenha.MinimumSize = new Size(0, 33);
             txtSenha.Name = "txtSenha";
             txtSenha.Size = new Size(349, 33);
@@ -96,7 +96,7 @@
             // 
             // btnSair
             // 
-            btnSair.Location = new Point(78, 178);
+            btnSair.Location = new Point(78, 126);
             btnSair.Name = "btnSair";
             btnSair.Size = new Size(100, 42);
             btnSair.TabIndex = 6;
@@ -108,7 +108,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(504, 241);
+            ClientSize = new Size(504, 188);
             Controls.Add(btnSair);
             Controls.Add(lblSenha);
             Controls.Add(txtSenha);

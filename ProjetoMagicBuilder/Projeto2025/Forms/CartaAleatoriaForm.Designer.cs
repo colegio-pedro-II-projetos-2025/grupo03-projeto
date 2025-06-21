@@ -36,6 +36,7 @@
             txtNome = new TextBox();
             lstTentativa = new ListBox();
             lblInfo = new Label();
+            btnVoltar = new Button();
             SuspendLayout();
             // 
             // btnEnviar
@@ -72,6 +73,7 @@
             // 
             lblDescricao.AutoSize = true;
             lblDescricao.Location = new Point(272, 17);
+            lblDescricao.MaximumSize = new Size(260, 0);
             lblDescricao.Name = "lblDescricao";
             lblDescricao.Size = new Size(111, 15);
             lblDescricao.TabIndex = 3;
@@ -97,7 +99,7 @@
             // 
             lstTentativa.FormattingEnabled = true;
             lstTentativa.ItemHeight = 15;
-            lstTentativa.Location = new Point(12, 113);
+            lstTentativa.Location = new Point(12, 93);
             lstTentativa.Name = "lstTentativa";
             lstTentativa.Size = new Size(410, 154);
             lstTentativa.TabIndex = 6;
@@ -106,16 +108,27 @@
             // lblInfo
             // 
             lblInfo.AutoSize = true;
-            lblInfo.Location = new Point(12, 246);
+            lblInfo.Location = new Point(12, 255);
             lblInfo.Name = "lblInfo";
             lblInfo.Size = new Size(0, 15);
             lblInfo.TabIndex = 7;
+            // 
+            // btnVoltar
+            // 
+            btnVoltar.Location = new Point(478, 224);
+            btnVoltar.Name = "btnVoltar";
+            btnVoltar.Size = new Size(74, 23);
+            btnVoltar.TabIndex = 8;
+            btnVoltar.Text = "Voltar";
+            btnVoltar.UseVisualStyleBackColor = true;
+            btnVoltar.Click += btnVoltar_Click;
             // 
             // CartaAleatoriaForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(564, 279);
+            Controls.Add(btnVoltar);
             Controls.Add(lblInfo);
             Controls.Add(lstTentativa);
             Controls.Add(txtNome);
@@ -126,6 +139,7 @@
             Controls.Add(btnEnviar);
             Name = "CartaAleatoriaForm";
             Text = "Carta Aleatória";
+            Load += CartaAleatoriaForm_Load;
             ResumeLayout(false);
             PerformLayout();
         }
@@ -140,5 +154,6 @@
         private TextBox txtNome;
         private ListBox lstTentativa;
         private Label lblInfo;
+        private Button btnVoltar;
     }
 }

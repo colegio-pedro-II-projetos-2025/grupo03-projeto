@@ -44,7 +44,7 @@
             // lblSenha
             // 
             lblSenha.AutoSize = true;
-            lblSenha.Location = new Point(81, 171);
+            lblSenha.Location = new Point(80, 147);
             lblSenha.Name = "lblSenha";
             lblSenha.Size = new Size(42, 15);
             lblSenha.TabIndex = 9;
@@ -53,7 +53,7 @@
             // txtSenha
             // 
             txtSenha.Font = new Font("Segoe UI Semilight", 9.75F);
-            txtSenha.Location = new Point(81, 189);
+            txtSenha.Location = new Point(80, 165);
             txtSenha.MinimumSize = new Size(0, 33);
             txtSenha.Name = "txtSenha";
             txtSenha.Size = new Size(349, 33);
@@ -62,7 +62,7 @@
             // lblEmail
             // 
             lblEmail.AutoSize = true;
-            lblEmail.Location = new Point(81, 117);
+            lblEmail.Location = new Point(80, 93);
             lblEmail.Name = "lblEmail";
             lblEmail.Size = new Size(39, 15);
             lblEmail.TabIndex = 7;
@@ -71,7 +71,7 @@
             // txtEmail
             // 
             txtEmail.Font = new Font("Segoe UI Semilight", 9.75F);
-            txtEmail.Location = new Point(81, 135);
+            txtEmail.Location = new Point(80, 111);
             txtEmail.MinimumSize = new Size(0, 33);
             txtEmail.Name = "txtEmail";
             txtEmail.Size = new Size(349, 33);
@@ -80,7 +80,7 @@
             // lblConfirmarSenha
             // 
             lblConfirmarSenha.AutoSize = true;
-            lblConfirmarSenha.Location = new Point(82, 225);
+            lblConfirmarSenha.Location = new Point(81, 201);
             lblConfirmarSenha.Name = "lblConfirmarSenha";
             lblConfirmarSenha.Size = new Size(99, 15);
             lblConfirmarSenha.TabIndex = 13;
@@ -89,7 +89,7 @@
             // txtConfirmarSenha
             // 
             txtConfirmarSenha.Font = new Font("Segoe UI Semilight", 9.75F);
-            txtConfirmarSenha.Location = new Point(82, 243);
+            txtConfirmarSenha.Location = new Point(81, 219);
             txtConfirmarSenha.MinimumSize = new Size(0, 33);
             txtConfirmarSenha.Name = "txtConfirmarSenha";
             txtConfirmarSenha.Size = new Size(349, 33);
@@ -98,7 +98,7 @@
             // lblNome
             // 
             lblNome.AutoSize = true;
-            lblNome.Location = new Point(81, 63);
+            lblNome.Location = new Point(80, 39);
             lblNome.Name = "lblNome";
             lblNome.Size = new Size(102, 15);
             lblNome.TabIndex = 11;
@@ -107,7 +107,7 @@
             // txtNome
             // 
             txtNome.Font = new Font("Segoe UI Semilight", 9.75F);
-            txtNome.Location = new Point(81, 81);
+            txtNome.Location = new Point(80, 57);
             txtNome.MinimumSize = new Size(0, 33);
             txtNome.Name = "txtNome";
             txtNome.Size = new Size(349, 33);
@@ -115,7 +115,7 @@
             // 
             // btnVoltar
             // 
-            btnVoltar.Location = new Point(83, 282);
+            btnVoltar.Location = new Point(82, 258);
             btnVoltar.Name = "btnVoltar";
             btnVoltar.Size = new Size(100, 42);
             btnVoltar.TabIndex = 15;
@@ -125,7 +125,7 @@
             // 
             // btnCadastrar
             // 
-            btnCadastrar.Location = new Point(189, 282);
+            btnCadastrar.Location = new Point(188, 258);
             btnCadastrar.Name = "btnCadastrar";
             btnCadastrar.Size = new Size(100, 42);
             btnCadastrar.TabIndex = 14;
@@ -137,7 +137,7 @@
             // 
             lblErro.AutoSize = true;
             lblErro.ForeColor = Color.Red;
-            lblErro.Location = new Point(293, 282);
+            lblErro.Location = new Point(292, 258);
             lblErro.Name = "lblErro";
             lblErro.Size = new Size(0, 15);
             lblErro.TabIndex = 16;
@@ -146,7 +146,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(504, 354);
+            ClientSize = new Size(504, 337);
             Controls.Add(lblErro);
             Controls.Add(btnVoltar);
             Controls.Add(btnCadastrar);

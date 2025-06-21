@@ -169,6 +169,7 @@ namespace Projeto2025.Forms
         {
             var cartaDeckRepo = new CartaDeckRepository(RepositoryUtil.ConnectionString);
             cartaDeckRepo.ColapsarCartasDuplicatas();
+            AtualizarCartas();
         }
     }
 }

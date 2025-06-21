@@ -65,7 +65,7 @@ namespace Projeto2025.Forms
             else
             {
                 int quantidade = (int)numQuant.Value;
-                cartaDeckRepo.AdicionarCartaAoDeck(selecionado.ID, idDeck, quantidade);
+                cartaDeckRepo.AdicionarCartaAoDeck(idDeck, selecionado.ID, quantidade);
                 lblAdicionado.Text = "Carta adicionada com sucesso!";
             }
         }

@@ -83,12 +83,12 @@ namespace Projeto2025.Forms
 
         private void btnComecar_Click(object sender, EventArgs e)
         {
+            Random random = new Random();
             if (Comecado == false)
             {
                 var cartaRepo = new CartaRepository(RepositoryUtil.ConnectionString);
                 Cartas = cartaRepo.ObterTodasCartas();
-                Random random = new Random();
-                var num = random.Next(1, 10);
+                var num = random.Next(1, Cartas.Count);
                 Atual = Cartas[num];
                 lblDescricao.Text = "Descrição da Carta: " + Atual.Descricao;
                 Partidas++;
@@ -101,17 +101,28 @@ namespace Projeto2025.Forms
         private void btnParar_Click(object sender, EventArgs e)
         {
             var usuarioRepo = new UsuarioRepository(RepositoryUtil.ConnectionString);
+            lstTentativa.Items.Clear();
+            lblDescricao.Text = "Descrição da Carta: ";
+            Comecado = false;
             if (UsuarioLogado.Vitorias < Vitorias && Partidas <= UsuarioLogado.Partidas)
             {
                 usuarioRepo.MudarRecorde(Vitorias, Partidas, UsuarioLogado.Email);
-                Comecado = false;
-                lstTentativa.Items.Clear();
             }
         }
 
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void CartaAleatoriaForm_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnVoltar_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
