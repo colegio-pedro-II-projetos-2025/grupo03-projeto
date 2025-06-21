@@ -110,6 +110,7 @@ namespace Projeto2025.Forms
                 DeckIndex = QuantidadeDeck - 1;
             }
             AtualizarDecks();
+            AtualizarCartas();
         }
 
         private void btnAnteriorDeck_Click(object sender, EventArgs e)
@@ -120,6 +121,7 @@ namespace Projeto2025.Forms
                 DeckIndex = 0;
             }
             AtualizarDecks();
+            AtualizarCartas();
         }
 
         private void btnExcluirDeck_Click(object sender, EventArgs e)
