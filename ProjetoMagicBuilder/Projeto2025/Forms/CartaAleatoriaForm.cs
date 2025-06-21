@@ -88,7 +88,7 @@ namespace Projeto2025.Forms
             {
                 var cartaRepo = new CartaRepository(RepositoryUtil.ConnectionString);
                 Cartas = cartaRepo.ObterTodasCartas();
-                var num = random.Next(1, Cartas.Count);
+                var num = random.Next(0, Cartas.Count - 1);
                 Atual = Cartas[num];
                 lblDescricao.Text = "Descrição da Carta: " + Atual.Descricao;
                 Partidas++;
